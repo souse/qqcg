@@ -1,0 +1,28 @@
+{
+  "family": "pafweblib",
+  "name": "grid",
+  "version": "2.0.0",
+  "description": "grid system",
+  "homepage": "https://github.com/xujia/grid",
+  "author": "wangjie",
+  "maintainers": [
+    "wangjie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xujia/grid.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "grid.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

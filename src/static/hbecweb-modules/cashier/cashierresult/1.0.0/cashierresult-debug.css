@@ -1,0 +1,26 @@
+/*! define cashier/cashierresult/1.0.0/cashierresult-debug.css */
+/* cashier.cashierresult style module */
+
+*{padding: 0;margin: 0;}
+body{font: 14px/1.42857 "Microsoft YaHei",SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.cashSucBox{background-color: #fff; margin-top: 50px;}
+.cashSucBody{width: 950px;margin: 0 auto;min-height: 400px;}
+.cashSucBody .BodyShow{color: #666;padding-left: 120px;min-height: 116px;margin-top: 25px;margin-bottom: 25px;background: url(./cashierSuc.png) no-repeat;background-position: 0 10px;}
+.cashSucBody .BodyShow .p1{font-size: 30px;}
+.cashSucBody .BodyShow .p2{font-size: 30px;line-height: 30px;}
+.cashSucBody .BodyShow .p3{font-size: 20px;}
+.cashSucBody .BodyInfoShow{line-height: 20px;color: #a6a6a6;}
+.cashSucFooter{background-color: #0087e3;height: 120px;line-height: 80px;}
+.cashSucFooter .footerAction{width: 950px;margin: 0 auto;}
+.cashSucFooter .footerAction a{margin-right: 50px;color: #fff;font-size: 18px;text-decoration: none;}
+.cashier-logo{background: url("./cashierlogo.png") no-repeat; width: 302px; height: 31px; margin-top: 15px; margin-bottom: 25px; display: block;}
+.cashier-main{width: 950px; margin: 0 auto;}
+.container {margin-left: auto; margin-right: auto; width: 950px;}
+
+.deamt-info{display: inline-block; margin-top: 5px;}
+.deamt{display: inline-block;}
+.money-info{display: inline-block; min-width: 80px; position: relative;}
+.money-info .yuan{font-size: 20px; font-weight: normal;}
+.money-info .fen{font-size: 13px; position: absolute; font-style: normal; top: 2px;}
+.show-message, .show-message .yuan{font-size: 30px;}
+.show-message .fen{top: 6px; font-size: 16px;}

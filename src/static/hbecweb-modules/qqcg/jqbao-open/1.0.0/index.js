@@ -1,0 +1,1 @@
+define("consumer/jqbao-open/1.0.0/index",["banklist"],function(a,b){function c(){var b=a("banklist"),c={btnId:"LTtoChangeMyBankCard",backBankName:"LTtoShowBankName",backBankNumF:"LTtoShowBankNum"};b.init(c)}function d(){c()}b.init=function(){d()}});

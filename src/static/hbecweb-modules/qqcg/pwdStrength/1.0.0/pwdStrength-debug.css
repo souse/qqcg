@@ -1,0 +1,55 @@
+/*! define consumer/pwdStrength/1.0.0/pwdStrength-debug.css */
+/*password strength*/
+.passwordHolder {
+	display: block;
+}
+
+.passwordHolder .strongShow {
+	left: 5px;
+	top: 32px;
+	height: 26px;
+	border: 1px solid #bfbfbf;
+	background: #FFF;
+	width: 238px;
+	margin-top: 4px;
+}
+
+.passwordHolder .strongShow span {
+	float: left;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 24px;
+	width: 33%;
+	margin-top: 0.5px;
+	margin-left: .5px;
+	background-color: #E7E1E1;
+}
+
+.weak .strongShow span.s1,.weak  .strongShow span.s2 {
+	background: #f93;
+	margin-left: 0.5px;
+}
+
+.weak  .strongShow span.s2{
+	color: #fff;
+}
+
+.medium .strongShow span.s1,.medium  .strongShow span.s2,.medium  .strongShow span.s3
+{
+	background: #e1e723;
+	margin-left: 0.5px;
+}
+
+.medium  .strongShow span.s3{
+	color: #fff;
+}
+
+.strong .strongShow span.s1,.strong  .strongShow span.s2,.strong  .strongShow span.s3,.strong  .strongShow span.s4
+{
+	background: #76bd22;
+	margin-left: 0.5px;
+}
+.strong .strongShow span.s4{
+	color: #fff;
+}

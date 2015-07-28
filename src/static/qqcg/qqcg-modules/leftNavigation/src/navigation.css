@@ -1,0 +1,36 @@
+/* left-nav.navigation style module */
+
+/*
+* 银行卡样式
+*
+* @author: yechunan
+* @date: 2014-03-07
+*/
+/* 资产管理模块左边导航样式定义 */
+.navLeft{
+	background-color: #fcfcfc;
+	padding-bottom:80px;
+	border:1px #ededed solid;
+	width:143px;
+}
+.navLeft .nav  li {
+	list-style:none;
+    border-bottom: 1px #ededed solid;
+    height: 33px;
+    width:100%;
+}
+.navLeft .nav  li  a {
+    display: block;
+    color: #666666;
+    font-weight: bold;
+    line-height: 33px;
+    height:33px;
+    text-shadow: 0 1px 0 #fff;
+    cursor: pointer;
+    width:100%;
+}
+.navLeft .nav  li  a span{float:left;display:block;text-align:center;}
+.navLeft .nav  li  a span.left{width:60%;}
+.navLeft .nav  li  a span.center{width:20%}
+.navLeft .nav  li  a span.right{width:20%;}
+.navLeft li.active a,.navLeft li a:hover,.navLeft li a:focus{color: #724637;background: #fff;}

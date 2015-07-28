@@ -1,0 +1,82 @@
+.tabpanel {
+    border: 1px #ededed solid;
+    *zoom: 1;
+}
+
+.tabpanel .tab-item-conainer {
+    *zoom: 1;
+}
+
+.tabpanel .tab-item-conainer:after{
+    content: '\0020';
+    height: 0px;
+    clear: both;
+    display: table;
+}
+
+.tabpanel .tab-item-conainer{
+    background-color: #fcfcfc;
+    height: 40px;
+    border-bottom: 1px solid #ededed;
+}
+
+.tabpanel .tab-item {
+    display: inline;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    border-right: 1px solid #ededed;
+}
+
+.tabpanel .tab-item a{
+    display: block;
+    padding: 0 32px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.tabpanel .tab-item a:hover{
+    color: #693a2b;
+    line-height: 38px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.tabpanel .tab-item-current{
+    cursor: default;
+    line-height: 38px;
+    padding-top: 1px;
+    background: #fff;
+}
+
+.tabpanel .tab-item-current a{
+    color: #693a2b;
+    cursor: default;
+}
+
+.tabpanel .item-more{
+    float: right;
+    line-height: 40px;
+    color: #ff9138;
+    font-weight: bold;
+}
+
+.tabpanel .item-more .icon-safe{
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    margin: 0 8px;
+    width: 18px;
+    height: 22px;
+    background: url("/static/consumer/consumer-modules/tabpanel/src/safe.png") no-repeat;
+}
+
+.tabpanel .panel-item{
+    display: none;
+    padding: 10px;
+}
+
+.tabpanel .panel-item-current{
+    display: block;
+}

@@ -1,0 +1,31 @@
+{
+    "family": "consumer",
+    "name": "addfastpayForm",
+    "version": "1.0.0",
+    "description": "添加快捷银行卡表单验证模块",
+    "author": "xujia624@pingan.com",
+    "maintainers": [
+        "xujia624@pingan.com"
+    ],
+    "spm": {
+        "output": [
+            "addfastpayForm.js",
+            "addfastpayForm.css",
+            "bg-credit.png"
+        ],
+        "alias": {
+            "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-state-all.css": "pafweblib/icons/1.0.0/icons-state-all.css",
+            "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css",
+            "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css": "pafweblib/btn/2.0.0/btn.css",
+            "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css": "pafweblib/notify/1.0.0/notify.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css",
+            "/static/pinganfuweb-modules/consumer/sendotp/1.0.0/sendotp.css": "consumer/sendotp/1.0.0/sendotp.css",
+            "$": "jquery/jquery/1.10.2/jquery",
+            "FormValidator": "pafweblib/FormValidator/0.2.1/FormValidator",
+            "idcard": "pafweblib/FormValidator/0.2.0/idcard",
+            "bankinput": "pafweblib/temporary/1.0.0/bankinput",
+            "numeral": "pafweblib/temporary/1.0.0/numeral",
+            "sendotp": "consumer/sendotp/1.0.0/sendotp"
+        }
+    }
+}

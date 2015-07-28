@@ -1,0 +1,42 @@
+/* consumer.cashierorderlayout style module */
+
+.cashier-order{
+    margin-bottom: 20px;
+}
+.orderset{width: 990px; margin-left: auto; margin-right: auto;}
+.cashier-order .ordermsg, .cashier-order .preferential, .cashier-order .actual{font-size: 14px;}
+.cashier-order .orderdetail{margin-bottom: 5px; background-color: #eaeaea; font-size: 12px; padding: 10px 0;}
+.cashier-order .actual{color: #0087e3;font-size:18px;margin-top: 10px;}
+.cashier-order .actual .yuan{font-size:28px;}
+.cashier-order .preferentialmsg{font-size: 12px; background: #eaeaea; padding: 10px 0;}
+.order-info .pic{color: #0087e3; cursor: pointer;}
+.order-info .customer-name{margin-right: 50px;}
+.order-info .mptext{margin-right: 7px; display: inline-block; width: 190px;}
+.order-info .detail-info{margin-bottom: 10px;}
+.order-info .lfwell{margin-right: 50px; width: 215px; display: inline-block;}
+.order-info .merchantname{margin-bottom: 0px;}
+.order-info .orderdetailname{display: inline-block; max-width: 167px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: bottom;}
+
+.money-info{position: relative; min-width: 98px; display: inline-block; text-align: right;}
+.money-info .yuan{font-size: 20px; font-weight: normal;}
+.money-info .fen{position: absolute; font-size: 14px; font-style: normal;}
+.money-info .yang{position: absolute;}
+.mobileTopup{
+    margin-left: 40px;
+    display: none;
+}
+.mobileTopup > a {
+    color: #0087e3;
+    text-decoration:none;
+}
+
+.hidden{display: none;}
+.loading{
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.space-top{
+    width: 32px;
+    height: 54px;
+}

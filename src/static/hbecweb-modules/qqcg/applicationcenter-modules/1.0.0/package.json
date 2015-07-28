@@ -1,0 +1,30 @@
+{
+  "family": "consumer",
+  "name": "applicationcenter-modules",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "applicationcenter.css"
+    ],
+    "alias": {
+    	"/static/pinganfuweb-modules/pafweblib/nav-stacked/1.0.0/nav-stacked.css":"pafweblib/nav-stacked/1.0.0/nav-stacked.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

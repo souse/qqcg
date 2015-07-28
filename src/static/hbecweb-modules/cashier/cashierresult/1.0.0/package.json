@@ -1,0 +1,31 @@
+{
+  "family": "cashier",
+  "name": "cashierresult",
+  "version": "1.0.0",
+  "description": "收银台结果页模块",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping","yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "cashierlogo.png",
+      "cashierSuc.png",
+      "cashierresult.js",
+      "cashierresult.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

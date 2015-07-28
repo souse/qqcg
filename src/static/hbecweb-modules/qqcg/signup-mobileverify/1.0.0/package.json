@@ -1,0 +1,17 @@
+{
+  "family": "consumer",
+  "name": "signup-mobileverify",
+  "version": "1.0.0",
+  "description": "注册第一步--手机注册验证",
+  "author": "xujia624",
+  "spm": {
+    "output": [
+      "mobileVerify.js",
+      "signup-mobileVerify.css"
+    ],
+    "alias": {
+        "/static/pinganfuweb-modules/pafweblib/form/1.0.0/captcha.css":"pafweblib/form/1.0.0/captcha.css",
+        "/static/pinganfuweb-modules/pafweblib/form/1.0.0/otp.css": "pafweblib/form/1.0.0/otp.css"
+    }
+  }
+}

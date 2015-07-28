@@ -1,0 +1,23 @@
+{
+    "family": "consumer",
+    "name": "hqbao-withdrawtoaccount",
+    "version": "1.0.0",
+    "description": "hqbao withdrawtoaccount page",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "spm": {
+        "output": [
+            "hqbao-withdrawtoaccount.js",
+            "hqbao-withdrawtoaccount.css"
+        ],
+        "alias": {
+            "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css": "pafweblib/notify/1.0.0/notify.css",
+            "/static/pinganfuweb-modules/consumer/tabpanel/1.0.0/tabpanel.css": "consumer/tabpanel/1.0.0/tabpanel.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/select.css":"pafweblib/form/1.0.0/select.css",
+            "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css"
+        }
+    }
+}

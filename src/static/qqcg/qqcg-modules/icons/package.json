@@ -1,0 +1,17 @@
+{
+    "family": "consumer",
+    "name": "icons",
+    "version": "1.0.0",
+    "description": "C门户的 icons sprite 集合",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "icons-settingstate.css",
+            "icons-settingstate.png"
+        ]
+    }
+}

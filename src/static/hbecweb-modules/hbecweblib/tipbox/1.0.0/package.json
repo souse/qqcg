@@ -1,0 +1,29 @@
+{
+  "family": "pafweblib",
+  "name": "tipbox",
+  "version": "1.0.0",
+  "description": "信息提示框， 可用于结果页",
+  "homepage": "",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/tipbox.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "tipbox.js",
+      "tipbox.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

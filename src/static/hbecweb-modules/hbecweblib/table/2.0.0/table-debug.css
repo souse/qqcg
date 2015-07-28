@@ -1,0 +1,38 @@
+/*! define pafweblib/table/2.0.0/table-debug.css */
+/* 表格样式 module */
+.paf-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border: 10px solid #f9f9f9;
+    background-color: #f9f9f9;
+    table-layout: fixed;
+    border-collapse:separate;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.paf-table th,
+.paf-table td {
+    margin-top: 0px;
+    padding: 8px;
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: top;
+    background-color: transparent;
+    border-top: 10px solid #f9f9f9;
+    color: #818181;
+    font-weight: normal;
+}
+
+.paf-table tr th {
+    vertical-align: bottom;
+    border-top: 0 none;
+}
+.paf-table tr td{
+    background-color: #fff;
+}
+.paf-table tr:hover td{
+    background-color: #ebebeb;
+}

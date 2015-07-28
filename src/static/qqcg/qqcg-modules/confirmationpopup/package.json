@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "confirmationpopup",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/zhangping/confirmationpopup",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/confirmationpopup.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "confirmationpopup.js",
+      "confirmationpopup.css"
+    ],
+    "alias": {"$":"jquery/jquery/1.10.2/jquery"},
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "family": "cashier",
+  "name": "order-detail",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/pumpkin/order-detail",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pumpkin/order-detail.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "order-detail.js",
+      "order-detail.css"
+    ],
+    "alias": {
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

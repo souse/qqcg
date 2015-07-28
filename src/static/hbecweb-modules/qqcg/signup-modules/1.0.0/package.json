@@ -1,0 +1,20 @@
+{
+  "family": "consumer",
+  "name": "signup-modules",
+  "version": "1.0.0",
+  "description": "注册流程公用模块",
+  "author": "xujia624",
+  "maintainers": [
+    "xujia624"
+  ],
+  "spm": {
+    "output": [
+      "signup.css"
+    ],
+    "alias": {
+        "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css": "pafweblib/btn/2.0.0/btn.css",
+        "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css": "pafweblib/notify/1.0.0/notify.css",
+        "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css"
+    }
+  }
+}

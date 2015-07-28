@@ -1,0 +1,322 @@
+/*! define consumer/questionnaire-index/1.0.0/questionnaire-index-debug.css */
+/*! block pafweblib/notify/1.0.0/notify-debug.css */
+/* 提示信息框模块 */
+
+/* 基础样式 */
+.paf-notify {
+    display: block;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 1.4;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    color: inherit;
+}
+
+.paf-notify h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.paf-notify p{
+    margin: 0;
+}
+
+.paf-notify .close {
+    float: right;
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.paf-notify .close:hover,
+.paf-notify .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+/* 替换类型: success、info、warn、error  */
+.paf-notify-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.paf-notify-success h4 {
+    color: #468847;
+}
+
+.paf-notify-warn {
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+}
+
+.paf-notify-warn h4 {
+    color: #c09853;
+}
+
+.paf-notify-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.paf-notify-error h4 {
+    color: #b94a48;
+}
+
+.paf-notify-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.paf-notify-info h4 {
+    color: #3a87ad;
+}
+/*! endblock pafweblib/notify/1.0.0/notify-debug.css */
+
+/*! block pafweblib/box/1.0.0/box-debug.css */
+/* pafweblib.box 样式模块 */
+
+.paf-box {
+    border: 1px solid #ededed;
+    zoom: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.paf-box:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.paf-box-follow /*--使用在box和上面的box相连的情况下 --*/ {
+    border-top: none;
+}
+
+.paf-box-head {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fafafa));
+    background: -moz-linear-gradient(top, #fcfcfc, #fafafa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#fafafa');
+    background: -o-linear-gradient(top, #fcfcfc, #fafafa);
+    background: linear-gradient(top, #fcfcfc, #fafafa);
+    zoom: 1;
+}
+
+.paf-box-forehead{
+    border-bottom: 0 none;
+}
+
+.paf-box-head .paf-box-head-title {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.paf-box-head .paf-box-head-more {
+    float: right;
+}
+
+.paf-box-head .paf-box-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+
+.paf-box-container {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.paf-box-content /* 可选，用于默认有内边距的box */ {
+    padding: 10px;
+}
+/*! endblock pafweblib/box/1.0.0/box-debug.css */
+
+/*! block pafweblib/btn/2.0.0/btn-debug.css */
+/* 默认样式 */
+.paf-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 11px 18px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 16px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-btn:hover,
+.paf-btn:focus,
+.paf-btn:active,
+.paf-btn.active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+}
+
+.paf-btn.disabled,
+.paf-btn[disabled],
+.paf-btn[disabled]:hover,
+.paf-btn[disabled]:active{
+    color: #818181;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+/* 可选项: 尺寸大小 */
+.paf-btn-large {
+    padding: 13px 21px;
+    font-size: 20px;
+}
+
+.paf-btn-small {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/* 颜色可选项: primary、info */
+.paf-btn-primary {
+    color: #ffffff;
+    border-color: #0087e3;
+    background-color: #0087e3;
+}
+
+.paf-btn-primary:hover,
+.paf-btn-primary:focus,
+.paf-btn-primary:active,
+.paf-btn-primary.active {
+    border-color: #0a77cf;
+    background-color: #0a77cf;
+}
+
+/* 主颜色背景下的按钮 */
+.paf-btn-bg-primary{
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #fff;
+}
+.paf-btn-bg-primary:hover,
+.paf-btn-bg-primary:focus,
+.paf-btn-bg-primary:active,
+.paf-btn-bg-primary.active {
+    color: #0087e3;
+    border-color: #fff;
+    background-color: #fff;
+}
+/*! endblock pafweblib/btn/2.0.0/btn-debug.css */
+
+/*! block consumer/questionnaire-index/1.0.0/index-debug.css */
+/* consumer.questionnaire-index style module */
+	.consumer-questionnaire-index .paf-notify{
+	background-color:#f4fae1;
+	border-color:#d8e6ac;
+	border-radius:0;
+   }
+  .consumer-questionnaire-index  .paf-notify h4,.consumer-questionnaire-index  .paf-notify p{
+  	 line-height:24px;
+  	 font-weight:bold;
+  	 font-size:14px;
+  	 color:#44453f;
+  }
+   .consumer-questionnaire-index .paf-box-head .paf-box-head-title{font-size:14px;color:#44453f;}
+   .consumer-questionnaire-index .paf-box-head .paf-box-head-title span{color:red;}
+  .consumer-questionnaire-index .paf-box,.consumer-questionnaire-index .paf-box-head, .consumer-questionnaire-index  .paf-box-container{
+  	border-color:#eee;
+  	 font-weight:bold;
+  	 font-size:14px;
+  }
+  .consumer-questionnaire-index .paf-box-head{
+  	padding:auto 24px;
+  	background:#f9f9f9;
+  	filter:none;
+  	background-color:#f9f9f9;
+  }
+ .consumer-questionnaire-index  .paf-box-container{
+  	padding:22px 24px;
+  }
+  .consumer-questionnaire-index textarea.suggestion{
+  	 height:126px;
+  	 width:100%;
+  	 background-color:#fafafa;
+  	 border:solid 1px #e8e8e8;
+  	 line-height:20px;
+  	 overflow-x:hidden;
+  	 resize:none;
+  	 text-align:left;
+  	 padding:5px;
+  }
+  .consumer-questionnaire-index .paf-box-container table td, .paf-box-container table th{text-align:center;border-bottom:solid 1px #f3f3f3;height:40px;font-size:14px;color:#656565;}
+  .consumer-questionnaire-index .paf-box-container table td.header {text-align:left;word-wrap: break-word;}
+  .consumer-questionnaire-index .w158{width:158px;}
+  .consumer-questionnaire-index .w108{width:108px;}
+  /*
+  .consumer-questionnaire-index .back-ff9138{background:#FF9138;height: 32px;border: none;line-height: 32px;padding: 0;}
+   */
+   .consumer-questionnaire-index .quesSmbBtnDiv{width: 210px;margin:23px auto 60px;text-align: center}
+    .consumer-questionnaire-index .quesSmbBtnDiv button.paf-btn-primary{border:none;}
+	.consumer-questionnaire-index .suggestionDiv{position:relative;}
+	.consumer-questionnaire-index .showSuggestionNum{position: absolute;right: 20px;top:160px;z-index: 9;}
+	.consumer-questionnaire-index .showSuggestionNum span{color:#9d9d9d;font-weight:normal;}
+	.consumer-questionnaire-index .paf-box-head  .requireCss{color:red;}
+	.consumer-questionnaire-index  .extraTips{line-height:30px;font-style: italic;color:#6b6b6b;margin-top:10px;}
+	.consumer-questionnaire-index .form-horizontal .controls{margin-left:0;}
+	.consumer-questionnaire-index .form-horizontal .controls input.captchainput{float:left;margin-right:5px;}
+	.consumer-questionnaire-index .form-horizontal .controls .refresh_captcha{position: relative;top: -10px;}
+	.consumer-questionnaire-index .requiredParent input[type=radio]{width:14px;height:14px;}
+	.consumer-questionnaire-index .w500{width:500px;}
+	.consumer-questionnaire-index .w300{width:300px;}
+	.consumer-questionnaire-index .captcha{height:30px;}
+  /*
+  .sprite-icon01{ background-position: 0 0; width: 100px; height: 100px; } 
+  .sprite-icon02{ background-position: 0 -110px; width: 100px; height: 100px; } 
+  
+  .sprite-radio01{ background-position: 0 0; width: 18px; height: 18px; } 
+  .sprite-radio02{ background-position: 0 -23px; width: 18px; height: 18px; } 
+  */
+/*! endblock consumer/questionnaire-index/1.0.0/index-debug.css */

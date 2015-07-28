@@ -1,0 +1,32 @@
+{
+  "family": "consumer",
+  "name": "system",
+  "version": "0.1.0",
+  "description": "C门户系统模块",
+  "homepage": "https://github.com/xujia/system",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "system.css"
+    ],
+    "alias": {
+        "header.css": "consumer/header/1.0.0/header.css",
+        "nav.css": "pafweblib/nav/1.0.0/nav.css",
+        "footer.css": "consumer/footer/1.0.0/footer.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

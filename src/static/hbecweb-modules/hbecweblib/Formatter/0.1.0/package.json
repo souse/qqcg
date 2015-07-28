@@ -1,0 +1,29 @@
+{
+  "family": "pafweblib",
+  "name": "Formatter",
+  "version": "0.1.0",
+  "description": "pafweblib 格式化显示类",
+  "homepage": "http://192.168.0.220/pafweblib/Formatter",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/Formatter.git"
+  },
+  "bugs": {
+    "url": "http://192.168.0.220/pafweblib/Formatter/issues"
+  },
+  "keywords": ["format"],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "Formatter.js"
+    ],
+    "alias": {
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

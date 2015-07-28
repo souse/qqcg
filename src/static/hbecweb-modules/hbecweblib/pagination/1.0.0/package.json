@@ -1,0 +1,29 @@
+{
+  "family": "pafweblib",
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "分页组件",
+  "homepage": "https://github.com/xujia/pagination",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xujia/pagination.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "pagination.js",
+      "pagination.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

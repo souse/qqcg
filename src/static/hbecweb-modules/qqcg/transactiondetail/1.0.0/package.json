@@ -1,0 +1,35 @@
+{
+  "family": "consumer",
+  "name": "transactiondetail",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/zhangping/transactiondetail",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/transactiondetail.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "transactiondetail.js",
+      "transactiondetail.css"
+    ],
+    "alias": {
+    	"/static/pinganfuweb-modules/pafweblib/grid/2.0.0/grid.css": "pafweblib/grid/2.0.0/grid.css",
+		"/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css",
+		"/static/pinganfuweb-modules/pafweblib/table/2.0.0/table.css": "pafweblib/table/2.0.0/table.css",
+		"/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css",
+		"/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css": "pafweblib/btn/2.0.0/btn.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

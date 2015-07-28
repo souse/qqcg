@@ -1,0 +1,26 @@
+{
+  "family": "consumer",
+  "name": "prepaidcard-index",
+  "version": "0.1.0",
+  "description": "This is a prepaidcard index modules",
+  "author": "wangjie230@pingan.com.cn",
+  "maintainers": [
+    "wangjie"
+  ],
+  "licenses": "MIT",
+  "spm": {
+    "alias": {
+	"/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css":"pafweblib/box/1.0.0/box.css",
+    "/static/pinganfuweb-modules/consumer/dialog/1.0.0/dialog.css":"consumer/dialog/1.0.0/dialog.css",
+    "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css",
+    "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css":"pafweblib/form/1.0.0/form.css"
+    },
+    "output": [
+      "prepaidcard-index.js",
+      "prepaidDialog.css",
+      "prepaidcard-index.css"
+    ],
+    "devAlias": {},
+    "engines": {}
+  }
+}

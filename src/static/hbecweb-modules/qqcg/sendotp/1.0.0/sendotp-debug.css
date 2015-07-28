@@ -1,0 +1,38 @@
+/*! define consumer/sendotp/1.0.0/sendotp-debug.css */
+.btn-otp {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 4px 3px 5px;
+    min-width: 0;
+    cursor: pointer;
+}
+
+.btn-otp:hover {
+    border: 1px solid #aaa;
+}
+
+.btn-otp:focus {
+    background: #eee;
+    border: 1px solid #aaa;
+}
+
+.btn-otp:disabled,
+.btn-otp.disabled{
+    border-color: #ccc;
+    color: #999;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+.btn-otp.countdown {
+    background: #eee;
+    border: 1px solid #aaa;
+    cursor: default;
+}
+
+.btn-otp.countdown {
+    background: #eee;
+    border: 1px solid #aaa;
+    cursor: default;
+}

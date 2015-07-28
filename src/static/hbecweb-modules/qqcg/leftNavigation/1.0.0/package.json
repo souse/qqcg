@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "leftNavigation",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "navigation.js",
+      "navigation.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

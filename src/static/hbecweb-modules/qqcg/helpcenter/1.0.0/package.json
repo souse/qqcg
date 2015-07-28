@@ -1,0 +1,32 @@
+{
+  "family": "consumer",
+  "name": "helpcenter",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "helpcenter.js",
+      "helpcenter.css"
+    ],
+    "alias": {
+    	"$": "jquery/jquery/1.10.2/jquery",
+    	"/static/pinganfuweb-modules/consumer/popUp/1.0.0/icon.css":"consumer/popUp/1.0.0/icon.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

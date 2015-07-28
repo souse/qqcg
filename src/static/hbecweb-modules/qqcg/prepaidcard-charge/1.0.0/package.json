@@ -1,0 +1,33 @@
+{
+  "family": "consumer",
+  "name": "prepaidcard-charge",
+  "version": "1.0.0",
+  "description": "The first version of charge in prepaidCard",
+  "homepage": "https://github.com/Rock/prepaidcard-charge",
+  "author": "Rock",
+  "maintainers": [
+    "Rock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rock/prepaidcard-charge.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "prepaidcard-charge.js",
+      "prepaidcard-charge.css"
+    ],
+    "alias": {
+		"/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css":"pafweblib/box/1.0.0/box.css",
+	    "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css",
+	    "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css":"pafweblib/form/1.0.0/form.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

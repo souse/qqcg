@@ -1,0 +1,204 @@
+/*
+**  header-login-bar
+*/
+
+.header-login-bar {
+    height: 35px;
+    line-height: 35px;
+    background: #545454;
+}
+
+.header-login-bar .header-bar-inner{
+    width: 990px;
+    margin: 0 auto;
+}
+.header-bar .headerBarSprite{
+	display: inline-block;
+	background: url(./headerBarSprite.png) no-repeat top left;
+}
+.header-bar .headerWxSprite{
+	display: inline-block;
+	background: url(./wxxllist.png) no-repeat top left;
+	margin-bottom: -4px;
+}
+.header-bar-inner .spriteSina{
+	background-position: 0 -136px; width: 22px; height: 17px;
+}
+.header-bar-inner .spriteSina:hover{
+	background-position: 0 -203px;
+}
+.header-bar-inner .spriteWX{
+	background-position: 0 0; width: 22px; height: 18px;
+}
+.header-bar-inner .wxewmImg{
+	background: url(./wxewm.jpg);
+	background-repeat: no-repeat;
+	height: 116px;
+    margin: 5px 12px 0;
+}
+.header-bar-inner .spritePhone{
+	background-position: -0px -0px;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -3px;
+}
+.header-bar-inner .spriteUpDown{
+	width: 9px;
+	height: 5px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	background-position: -0px -41px;
+}
+
+.header-bar-inner .spriteDown{
+	background-position: -0px -26px;
+}
+
+.header-bar .spriteUs{
+	background-position: -0px -56px;
+	width: 17px;
+	height: 14px;
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+.header-bar .spriteQuestion{
+	background-position: -0px -80px;
+	width: 17px;
+	height: 16px;
+	margin-right: 5px;
+	margin-bottom: -3px;
+}
+.header-bar .spriteContact{
+	background-position: -0px -106px;
+	width: 17px;
+	height: 15px;
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+.header-login-bar li{
+    float: left;
+    color: #c4c4c4
+}
+.headerInfoBox .touxiangBox{position:relative;float:left;width:50px;min-height:50px;}
+.headerInfoBox .touxiangBox img{width: 45px; height: 45px;position: absolute;top: 0;left: 0;}
+.headerInfoBox .touxiangBox .touxingBorder{width: 45px; height: 45px;position: absolute;top:0;left:0;background-image: url(./mask.png);background-repeat: no-repeat;z-index: 10}
+.header-login-bar .main-cell a{
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #c4c4c4;
+}
+.header-login-bar .main-cell .rightLine{
+	height: 35px;
+}
+.header-login-bar .main-cell .rightLine span{
+	display: inline-block;
+	height: 35px;
+	border-left:1px solid #1c1c1c;
+	border-right:1px solid #797979;
+}
+.header-login-bar .sub-cell a{
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-login-bar .homelink, .header-login-bar .homelink:active{
+    color: #666;
+}
+
+.header-login-bar .main-cell{
+    float: left;
+}
+.header-login-bar .main-cell a{
+    font-size: 16px;
+    display: block;
+}
+.header-login-bar .main-cell a.current{
+    color: #488dd6;
+    background: #FBFBFB;
+}
+.header-login-bar .main-cell a:hover{
+    background: #FBFBFB;
+}
+
+.header-login-bar .sub-cell{
+    float: right;
+}
+
+.header-login-bar .sub-cell .split{
+    border-right: 1px solid #ccc;
+}
+
+.header-login-bar .sub-cell .last{
+    padding-right: 0px;
+    margin-right: -5px;
+}
+
+.header-login-bar .sub-cell .link-group{
+    padding: 0 5px;
+}
+
+.header-login-bar .sub-cell .link-group a, .header-login-bar .sub-cell .name{
+    padding: 0 5px;
+}
+/*登录页面焦点色值处理*/
+.header-login-bar a{
+	color: #c4c4c4;
+	text-decoration: none;
+}
+.header-login-bar a:hover{
+	color: #488dd6;
+	text-decoration: underline;
+}
+.header-login-bar .headerNavTitle{
+	color: #c4c4c4;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+.header-login-bar .headerNavTitle .headerNavTitlename{
+	overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-break: keep all;display: inline-block;max-width: 100px;margin-bottom: -12px;
+}
+.header-login-bar .headerNavBox{
+	position: relative;
+}
+.headerInfoBody{
+	display: none;
+	position: absolute;
+	width: 195px;
+	top: 35px;
+	left: 0px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	background: #FBFBFB;
+	z-index: 10;
+}
+.headerInfoBody .headerInfoBox{background-image: url(./headPic.png);background-repeat: no-repeat;text-align: left;}
+.headerNavBody{
+	display: none;
+	height: 127px;
+	position: absolute;
+	width: 127px;
+	top: 35px;
+	left: 0px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	background: #FBFBFB;
+	z-index: 10;
+}
+.headerNavBody li{
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	width: 100%;
+}
+.headerInfoBody li{
+	line-height: 30px;
+	padding: 14px 9px;
+	text-align: center;
+}
+.headerInfoBody li .headerInfoBox a{color: #1576BE;padding:0}
+.headerNavBody .headerNavInfoWords,.headerInfoBody .headerNavInfoWords{
+	color:#0087e3
+}
+.headerInfoBody .headAccountInfo{overflow: hidden;  text-overflow: ellipsis;  white-space: nowrap;  word-break: keep all;width: 124px;}
+body{overflow-x: visible;}

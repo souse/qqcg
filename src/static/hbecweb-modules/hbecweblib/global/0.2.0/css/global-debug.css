@@ -1,0 +1,280 @@
+/*! define pafweblib/global/0.2.0/css/global-debug.css */
+/*! block pafweblib/global/0.2.0/css/reset/root-debug.css */
+/* 防止用户自定义背景颜色对网页的影响*/
+/* 设置页面默认纵向滚动条位置，防止高度增加超过一屏后发生页面抖动 */
+/* 强制设置页面默认隐藏横向滚动条位置，影响用户体验 */
+html{
+    color:#000;
+    background:#fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-y: scroll;
+}
+body{
+    overflow-x: hidden;
+	min-width:1000px;
+}
+/*! endblock pafweblib/global/0.2.0/css/reset/root-debug.css */
+
+/*! block pafweblib/global/0.2.0/css/reset/spacing-debug.css */
+/*
+** 间距重置
+** @ref: http://www.w3.org/TR/html5/ W3C规范Html5标签
+*/
+/* 取消间距， 注意浏览器默认没有设置间距的标签不用引入 */
+body, /*article, section, nav, aside, header, footer, address,*/ h1, h2, h3, h4, h5, h6, /* section elements 区域元素 */
+p, hr, pre, blockquote, dl, dt, dd, ul, ol, li, figure, /*figcaption, div,*/ /* Grouping content 分组元素 */
+fieldset, button, input, textarea, /*form,*/ /* form elements 表单元素 */
+th, td /* table elements  表单元素*/
+/*details, summary*/ /* interactive elements 交互元素 */
+ {
+    margin: 0;
+    padding: 0;
+}
+/*! endblock pafweblib/global/0.2.0/css/reset/spacing-debug.css */
+
+/*! block pafweblib/global/0.2.0/css/reset/font-debug.css */
+/*
+** 重置标签的字体相关样式
+*/
+body, button, input, select, textarea {
+    font-size: 14px;
+    font-family: Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, "Microsoft YaHei", \5B8B\4F53, "SimSun", sans-serif; /*中文优先雅黑后宋体, 使用utf-8编码及英文双重表示，兼容性更好*/
+}
+
+button, input, select, textarea {
+    font-size: 100%;        /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+select {
+    border-color: #cccccc; /* 解决chrome下字体大小设置bug */
+}
+
+/* 标题统一基于父元素的大小 */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%; /* <IE8 都不支持属性值 "inherit" */
+    font-weight: normal;
+}
+
+/* 将字体正常化，便于重新设计语意化 */
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+
+strong, b {
+    font-weight: normal;
+}
+
+/* 统一等宽字体 */
+code, kbd, samp, tt {
+    font-family: "Courier New", Courier, monospace;
+}
+/*! endblock pafweblib/global/0.2.0/css/reset/font-debug.css */
+
+/*! block pafweblib/global/0.2.0/css/reset/elements-debug.css */
+/*
+* 标签角度的样式重置
+*/
+
+/* 列表 */
+ul, ol {
+    list-style: none;
+}
+
+/* 链接 */
+a {
+    color: #0087e3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* img */
+img {
+    border: none; /* for ie: 让链接里的图片无边框 */
+    -ms-interpolation-mode: bicubic; /*解决ie7下图片缩放的失真问题*/
+}
+
+/* 表单 */
+legend {
+    color: #000;
+}
+
+/* for ie6 */
+fieldset {
+    border: none;
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse; /* 设置边框合，无边框间距 */
+    border-spacing: 0;
+}
+caption,th {    /* 对齐是排版最重要的因素, 别让什么都居中 */
+    text-align:left;
+}
+
+/* 去掉 firefox 下此元素的边框 */
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+/* 一致的 del 样式 */
+del {
+    text-decoration: line-through;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+/*ins{*/
+    /*text-decoration:none;*/
+/*}*/
+
+/* 统一上标和下标 */
+sub, sup {
+    font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/* ie6 7 8 bug 显示为行内表现 */
+iframe {
+    display: block;
+}
+/*! endblock pafweblib/global/0.2.0/css/reset/elements-debug.css */
+
+/*! block pafweblib/global/0.2.0/css/reset/html5Shim-debug.css */
+/* 定义html5元素，促使在非现代浏览器下可用 */
+article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
+    display:block;
+}
+
+mark{
+    background:#FF0;
+    color:#000
+}
+
+audio,canvas,video {    /* HTML5 媒体文件跟 img 保持一致 */
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+/*! endblock pafweblib/global/0.2.0/css/reset/html5Shim-debug.css */
+
+/*! block pafweblib/global/0.2.0/css/fn/fn-debug.css */
+/*
+ * 工具类
+ */
+
+/* 清理浮动 */
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.fn-clear {
+    zoom: 1; /* for IE6 IE7 */
+}
+
+/* 隐藏, 通常用来与 JS 配合 */
+.fn-hide {
+    display: none;
+}
+
+/* 设置内联, 减少浮动带来的bug */
+.fn-left,
+.fn-right {
+    display: inline;
+}
+
+.fn-left {
+    float: left;
+}
+
+.fn-right {
+    float: right;
+}
+
+/* 单行文字溢出时出现省略号，需设定宽度 */
+.fn-text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 简单的渐变 */
+.fn-linear {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f1f1f1));
+    background: -moz-linear-gradient(top, #fcfcfc, #f1f1f1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f1f1f1');
+    background: -o-linear-gradient(top, #fcfcfc, #f1f1f1);
+    background: -ms-linear-gradient(top, #fcfcfc, #f1f1f1);
+    background: linear-gradient(to bottom, #fcfcfc, #f1f1f1);
+}
+
+/* 浅色的渐变 */
+.fn-linear-light {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
+    background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f9f9f9');
+    background: -o-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: -ms-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: linear-gradient(to bottom, #fcfcfc, #f9f9f9);
+}
+
+/* 人民币符号 */
+.fn-rmb {
+    font-family: arial;
+    font-style: normal;
+    padding-right: 4px;
+}
+
+/* chrome 下字体过小的问题 */
+.fn-webkit-adjust {
+    -webkit-text-size-adjust: none;
+}
+/*! endblock pafweblib/global/0.2.0/css/fn/fn-debug.css */
+
+/*! block pafweblib/iconfont/0.1.0/iconfont-debug.css */
+@font-face {font-family: "iconfont";
+  src: url('/static/pinganfuweb-modules/pafweblib/iconfont/0.1.0/iconfont.eot'); /* IE9*/
+  src: url('/static/pinganfuweb-modules/pafweblib/iconfont/0.1.0/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/static/pinganfuweb-modules/pafweblib/iconfont/0.1.0/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('/static/pinganfuweb-modules/pafweblib/iconfont/0.1.0/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('/static/pinganfuweb-modules/pafweblib/iconfont/0.1.0/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.paf-iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-question {
+    color: #d1a066;
+}
+
+.iconfont-error {
+    color: #f17975;
+}
+
+.iconfont-caution {
+    color: #f96;
+}
+
+.iconfont-right {
+    color: #b5de70;
+}
+
+.iconfont-info {
+    color: #68b5e2;
+}
+/*! endblock pafweblib/iconfont/0.1.0/iconfont-debug.css */

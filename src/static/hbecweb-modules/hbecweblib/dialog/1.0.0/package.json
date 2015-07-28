@@ -1,0 +1,30 @@
+{
+  "family": "pafweblib",
+  "name": "dialog",
+  "version": "1.0.0",
+  "description": "pafweblib 弹出窗口公用组件.",
+  "homepage": "http://192.168.0.220/pafweblib/dialog",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/dialog.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "close.png",
+      "dialog.js",
+      "dialog.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

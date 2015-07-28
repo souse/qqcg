@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "searchDateTab",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "searchDateTab.css",
+       "icon.png"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

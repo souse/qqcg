@@ -1,0 +1,22 @@
+/*系统级别的样式重写及常用样式*/
+
+/*
+* link 相关样式
+*/
+a.fn-link:hover, a.fn-link:focus{
+    text-decoration: none;  /*以区别一般跳转式链接，功能式的链接去除下划线*/
+}
+
+body {
+    color: #666; /* C门户系统内部页面几乎都是使用#666做为字体样式,设置全局字体样式为#666*/
+}
+
+body, button, input, select, textarea {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Tahoma, Arial, \5FAE\8F6F\96C5\9ED1,  \5B8B\4F53, "SimSun", sans-serif; /*中文优先雅黑后宋体, 使用utf-8编码及英文双重表示，兼容性更好*/
+}
+
+
+
+
+

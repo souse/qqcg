@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "cashierorderlayout",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "cashierorderlayout.js",
+      "cashierorderlayout.css"
+    ],
+    "alias": {"$": "jquery/jquery/1.10.2/jquery"},
+    "devAlias": {},
+    "engines": {}
+  }
+}

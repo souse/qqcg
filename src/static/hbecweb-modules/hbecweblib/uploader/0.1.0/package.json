@@ -1,0 +1,39 @@
+{
+  "family": "pafweblib",
+  "name": "uploader",
+  "version": "0.1.0",
+  "description": "iframe and html5 file uploader",
+  "homepage": "",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/upload.git"
+  },
+  "bugs": {
+    "url": "http://192.168.0.220/pafweblib/upload/issues"
+  },
+  "keywords": [
+    "utility",
+    "upload",
+    "ajax upload",
+    "iframe upload"
+  ],
+  "licenses": "MIT",
+  "devDependencies": {
+    "connect": "^3.0.2",
+    "connect-render": "^0.4.1",
+    "serve-static": "^1.4.0",
+    "urlrouter": "^0.5.4"
+  },
+  "spm": {
+    "output": [
+      "Uploader.js"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "family": "consumer",
+  "name": "dialog",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/zhangping/dialog",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/dialog.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "dialog.js",
+      "confirmDialog.js",
+      "dialog.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

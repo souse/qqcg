@@ -1,0 +1,23 @@
+{
+    "family": "consumer",
+    "name": "footer",
+    "version": "1.0.0",
+    "description": "C门户默认尾",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "keywords": [],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "footer.css",
+            "certif.png",
+            "certif01.jpg",
+            "certif02.jpg"
+        ],
+        "alias": {},
+        "devAlias": {},
+        "engines": {}
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "family": "consumer",
+  "name": "hqb-modules",
+  "version": "1.0.0",
+  "description": "hqb common modules",
+  "homepage": "https://github.com/susie/hqb-modules",
+  "author": "susie",
+  "maintainers": [
+    "susie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/susie/hqb-modules.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "withdrawCommon.js"
+    ],
+    "alias": {
+            "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css": "pafweblib/notify/1.0.0/notify.css",
+            "/static/pinganfuweb-modules/consumer/tabpanel/1.0.0/tabpanel.css": "consumer/tabpanel/1.0.0/tabpanel.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/select.css":"pafweblib/form/1.0.0/select.css",
+            "/static/pinganfuweb-modules/pafweblib/btn/1.0.0/btn.css":"pafweblib/btn/1.0.0/btn.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

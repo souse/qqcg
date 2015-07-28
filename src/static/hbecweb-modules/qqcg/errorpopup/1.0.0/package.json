@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "errorpopup",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/zhangping/errorpopup",
+  "author": "",
+  "maintainers": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/errorpopup.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "errorpopup.js",
+      "errorpopup.css"
+    ],
+    "alias": {"$":"jquery/jquery/1.10.2/jquery"},
+    "devAlias": {},
+    "engines": {}
+  }
+}

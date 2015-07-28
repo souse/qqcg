@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "asset",
+  "version": "0.1.0",
+  "description": "This is asset common modules.",
+  "homepage": "https://github.com/pumpkin/asset",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pumpkin/asset.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "asset.js",
+      "asset.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,339 @@
+/*! define consumer/bankcard-index/0.1.0/bankcard-index-debug.css */
+/*outter module*/
+
+/*! block pafweblib/icons/1.0.0/icons-state-all-debug.css */
+[class*=icon-state]{ display: inline-block; background: url(/static/pinganfuweb-modules/pafweblib/icons/1.0.0/sprite-state-all.png) no-repeat top left;}
+.icon-state-fail_16{ background-position: 0 0; width: 17px; height: 16px; }
+.icon-state-fail_30{ background-position: 0 -66px; width: 30px; height: 30px; }
+.icon-state-success_16{ background-position: 0 -146px; width: 16px; height: 16px; }
+.icon-state-success_30{ background-position: 0 -212px; width: 30px; height: 30px; }
+.icon-state-warn_16{ background-position: 0 -292px; width: 16px; height: 16px; }
+/*! endblock pafweblib/icons/1.0.0/icons-state-all-debug.css */
+
+/*! block pafweblib/icons/1.0.0/icons-banklogo-all-debug.css */
+[class*=icon-banklogo-]{display: inline-block;width: 28px; height: 19px; background: url(/static/pinganfuweb-modules/pafweblib/icons/1.0.0/sprite-banklogo-all.png) no-repeat top left;background-position: 0 0;}
+.icon-banklogo-aaaa{ background-position: 0 0; width: 28px; height: 19px; } 
+.icon-banklogo-abc{ background-position: 0 -69px; width: 28px; height: 19px; } 
+.icon-banklogo-bccb{ background-position: 0 -138px; width: 28px; height: 19px; } 
+.icon-banklogo-boc{ background-position: 0 -207px; width: 28px; height: 19px; } 
+.icon-banklogo-bocom{ background-position: 0 -276px; width: 28px; height: 19px; } 
+.icon-banklogo-cbhb{ background-position: 0 -345px; width: 28px; height: 19px; } 
+.icon-banklogo-bos{ background-position: 0 -414px; width: 28px; height: 19px; } 
+.icon-banklogo-bjrcb{ background-position: 0 -483px; width: 28px; height: 19px; } 
+.icon-banklogo-ccb{ background-position: 0 -552px; width: 28px; height: 19px; } 
+.icon-banklogo-ceb{ background-position: 0 -621px; width: 28px; height: 19px; } 
+.icon-banklogo-cib{ background-position: 0 -690px; width: 28px; height: 19px; } 
+.icon-banklogo-cmb{ background-position: 0 -759px; width: 28px; height: 19px; } 
+.icon-banklogo-cmbc{ background-position: 0 -828px; width: 28px; height: 19px; } 
+.icon-banklogo-cncb{ background-position: 0 -897px; width: 28px; height: 19px; } 
+.icon-banklogo-cqcbank{ background-position: 0 -966px; width: 28px; height: 19px; } 
+.icon-banklogo-bankofdl{ background-position: 0 -1035px; width: 28px; height: 19px; } 
+.icon-banklogo-dgcb{ background-position: 0 -1104px; width: 28px; height: 19px; } 
+.icon-banklogo-eqwb{ background-position: 0 -1173px; width: 28px; height: 19px; } 
+.icon-banklogo-gdb{ background-position: 0 -1242px; width: 28px; height: 19px; } 
+.icon-banklogo-gzcb{ background-position: 0 -1311px; width: 28px; height: 19px; } 
+.icon-banklogo-gzcu{ background-position: 0 -1380px; width: 28px; height: 19px; } 
+.icon-banklogo-hscb{ background-position: 0 -1449px; width: 28px; height: 19px; } 
+.icon-banklogo-hxb{ background-position: 0 -1518px; width: 28px; height: 19px; } 
+.icon-banklogo-hzcb{ background-position: 0 -1587px; width: 28px; height: 19px; } 
+.icon-banklogo-icbc{ background-position: 0 -1656px; width: 28px; height: 19px; } 
+.icon-banklogo-jsbk{ background-position: 0 -1725px; width: 28px; height: 19px; } 
+.icon-banklogo-nbbc{ background-position: 0 -1794px; width: 28px; height: 19px; } 
+.icon-banklogo-njcb{ background-position: 0 -1863px; width: 28px; height: 19px; } 
+.icon-banklogo-pab{ background-position: 0 -1932px; width: 28px; height: 19px; } 
+.icon-banklogo-psbc{ background-position: -78px 0; width: 28px; height: 19px; } 
+.icon-banklogo-qzcb{ background-position: -78px -69px; width: 28px; height: 19px; } 
+.icon-banklogo-sdbc{ background-position: -78px -138px; width: 28px; height: 19px; } 
+.icon-banklogo-spdb{ background-position: -78px -207px; width: 28px; height: 19px; } 
+.icon-banklogo-srcb{ background-position: -78px -276px; width: 28px; height: 19px; } 
+.icon-banklogo-zuzhoubank{ background-position: -78px -345px; width: 28px; height: 19px; } 
+.icon-banklogo-tccb{ background-position: -78px -414px; width: 28px; height: 19px; } 
+.icon-banklogo-tlcb{ background-position: -78px -483px; width: 28px; height: 19px; } 
+.icon-banklogo-wxrb{ background-position: -78px -552px; width: 28px; height: 19px; } 
+.icon-banklogo-wzcb{ background-position: -78px -621px; width: 28px; height: 19px; } 
+.icon-banklogo-xmccb{ background-position: -78px -690px; width: 28px; height: 19px; } 
+.icon-banklogo-zsb{ background-position: -78px -759px; width: 28px; height: 19px; } 
+/*! endblock pafweblib/icons/1.0.0/icons-banklogo-all-debug.css */
+
+/*! block pafweblib/box/1.0.0/box-debug.css */
+/* pafweblib.box 样式模块 */
+
+.paf-box {
+    border: 1px solid #ededed;
+    zoom: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.paf-box:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.paf-box-follow /*--使用在box和上面的box相连的情况下 --*/ {
+    border-top: none;
+}
+
+.paf-box-head {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background: #fcfcfc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fafafa));
+    background: -moz-linear-gradient(top, #fcfcfc, #fafafa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#fafafa');
+    background: -o-linear-gradient(top, #fcfcfc, #fafafa);
+    background: linear-gradient(top, #fcfcfc, #fafafa);
+    zoom: 1;
+}
+
+.paf-box-forehead{
+    border-bottom: 0 none;
+}
+
+.paf-box-head .paf-box-head-title {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.paf-box-head .paf-box-head-more {
+    float: right;
+}
+
+.paf-box-head .paf-box-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+
+.paf-box-container {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.paf-box-content /* 可选，用于默认有内边距的box */ {
+    padding: 10px;
+}
+/*! endblock pafweblib/box/1.0.0/box-debug.css */
+
+/*! block pafweblib/btn/2.0.0/btn-debug.css */
+/* 默认样式 */
+.paf-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 11px 18px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 16px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-btn:hover,
+.paf-btn:focus,
+.paf-btn:active,
+.paf-btn.active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+}
+
+.paf-btn.disabled,
+.paf-btn[disabled],
+.paf-btn[disabled]:hover,
+.paf-btn[disabled]:active{
+    color: #818181;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+/* 可选项: 尺寸大小 */
+.paf-btn-large {
+    padding: 13px 21px;
+    font-size: 20px;
+}
+
+.paf-btn-small {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/* 颜色可选项: primary、info */
+.paf-btn-primary {
+    color: #ffffff;
+    border-color: #0087e3;
+    background-color: #0087e3;
+}
+
+.paf-btn-primary:hover,
+.paf-btn-primary:focus,
+.paf-btn-primary:active,
+.paf-btn-primary.active {
+    border-color: #0a77cf;
+    background-color: #0a77cf;
+}
+
+/* 主颜色背景下的按钮 */
+.paf-btn-bg-primary{
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #fff;
+}
+.paf-btn-bg-primary:hover,
+.paf-btn-bg-primary:focus,
+.paf-btn-bg-primary:active,
+.paf-btn-bg-primary.active {
+    color: #0087e3;
+    border-color: #fff;
+    background-color: #fff;
+}
+/*! endblock pafweblib/btn/2.0.0/btn-debug.css */
+
+/*innner module*/
+
+/*! block consumer/bankcard-index/0.1.0/index-debug.css */
+.emphasis{
+    color: #0087e3;
+    padding: 0 4px;
+}
+
+.list-card {
+    width: 760px;
+    margin: 0px auto 12px;
+    color: #999;
+    zoom: 1; /* for IE6 IE7 */
+}
+
+.list-card:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.list-card .card{
+    float: left;
+    width: 240px;
+    height: 130px;
+    margin: 10px 0px 10px 10px;
+    overflow: hidden;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.list-card .title{
+    margin: 0px;
+    padding: 0px;
+    height: 31px;
+    background-color: #f5f5f5;
+    color: #404040;
+}
+.list-card .box-icon{
+    display: inline-block;
+    width: 116px;
+    margin: 6px 0px 0 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.list-card .more {
+    float: right;
+    margin: 0px 5px 0px 0px;
+    line-height: 31px;
+}
+
+.list-card .more .number{
+    padding-right: 4px;
+}
+
+.list-card .more i{
+    padding: 1px;
+    line-height: 1;
+    font-style: normal;
+    color: white;
+    font-size: 10px;
+}
+
+.list-card .more .card-type-c{
+    padding: 3px;
+    color: #a9a9a9;
+    background-color: #ffffff;
+}
+
+.list-card .more .card-type-d{
+    padding: 3px;
+    color: #a9a9a9;
+    background-color: #ffffff;
+}
+
+.list-card .line-middle{
+    height: 65px;
+    line-height: 65px;
+    padding: 0 10px;
+}
+
+.list-card .line-middle em{
+    font-size: medium;
+    font-style: italic;
+    color: #0087e3;
+    padding-right: 4px;
+}
+
+.list-card .line-bottom{
+    padding: 0 10px;
+}
+
+.list-card .line-bottom a:hover {
+    text-decoration : none;
+}
+
+.list-card .card.entry{
+    line-height:130px;
+    border-style: dotted;
+    text-align:center;
+    font-size: 14px;
+
+}
+.list-card .card.entry span.add{
+    margin-top: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background:url("./addfastpay.png") no-repeat center center;
+    cursor:pointer;
+    position: relative;
+    color: #0087e3;
+}
+/*! endblock consumer/bankcard-index/0.1.0/index-debug.css */

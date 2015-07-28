@@ -1,0 +1,389 @@
+/*! define consumer/system/0.1.0/system-debug.css */
+/* C门户系统模块样式 */
+
+/*! block consumer/header/1.0.0/header-debug.css */
+/*
+** header 整合文件
+*/
+
+/*! block consumer/header/1.0.0/header-login-bar-debug.css */
+/*
+**  header-login-bar
+*/
+.header-login-bar {
+    height: 40px;
+    line-height: 40px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ededed;
+}
+
+.header-login-bar .header-bar-inner{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.header-login-bar li{
+    float: left;
+}
+
+.header-login-bar a, .header-login-bar a:active{
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1197b8;
+}
+.header-login-bar .homelink, .header-login-bar .homelink:active{
+    color: #666;
+    text-decoration: none;
+}
+.header-login-bar .homelink:hover{
+    color: #FF9138;
+}
+
+.header-login-bar .main-cell{
+    float: left;
+}
+.header-login-bar .main-cell a{
+    font-size: 16px;
+    display: block;
+}
+.header-login-bar .main-cell a.current{
+    color: #fff;
+    background: #ff8138;
+}
+.header-login-bar .main-cell a:hover{
+    color: #fff;
+    background: #ffa358;
+}
+
+.header-login-bar .sub-cell{
+    float: right;
+}
+
+.header-login-bar .sub-cell .split{
+    border-right: 1px solid #ccc;
+}
+
+.header-login-bar .sub-cell .last{
+    padding-right: 0px;
+    margin-right: -5px;
+}
+
+.header-login-bar .sub-cell .link-group{
+    padding: 0 5px;
+}
+
+.header-login-bar .sub-cell .link-group a, .header-login-bar .sub-cell .name{
+    padding: 0 5px;
+}
+/*! endblock consumer/header/1.0.0/header-login-bar-debug.css */
+
+/*! block consumer/header/1.0.0/header-logo-bar-debug.css */
+/*
+** header-logo-bar
+*/
+.header-logo-bar {
+    width: 950px;
+    margin: 0 auto;
+    padding: 16px 0;
+    color: #333;
+}
+.header-logo-bar:after{
+    content: "\0020";
+    display: table;
+    height: 0;
+    clear: both;
+}
+.header-logo-bar a, .header-logo-bar a:active{
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #444;
+    text-decoration: none;
+}
+.header-logo-bar a:hover{
+    text-decoration: underline;
+}
+.header-logo-bar .nav-list{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.header-logo-bar .nav-list li{
+    display: inline-block;
+    font-size: 16px;
+}
+.header-logo-bar .nav-list .split{
+    border-right: 1px solid #ccc;
+}
+.header-logo-bar .nav-list .last{
+    padding-right: 0px;
+    margin-right: -5px;
+}
+.header-logo-bar .help-cell{
+    float: right;
+    color: #FF9138;
+}
+.header-logo-bar .help-cell h3{
+    margin-bottom: 4px;
+}
+.header-logo-bar h1{
+    float: left;
+}
+.header-logo-bar h1 a{
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    text-indent: -9999px;
+    background: url("/static/consumer/consumer-modules/header/src/logo-302-40.png") no-repeat;
+}
+.header-logo-bar .system{
+    display: inline-block;
+    height: 20px;
+    margin: 12px 0px 8px;
+    padding: 0 12px;
+    line-height: 20px;
+    font-size: 18px;
+    border-left: 1px solid #ccc;
+}
+.header-logo-bar .system.fn-hide{
+    display: none;
+}
+/*! endblock consumer/header/1.0.0/header-logo-bar-debug.css */
+/*! endblock consumer/header/1.0.0/header-debug.css */
+
+/*! block pafweblib/nav/1.0.0/nav-debug.css */
+.paf-nav {
+    position: relative;
+}
+
+.paf-nav a {
+    text-decoration: none;
+}
+
+.paf-nav a:hover {
+    text-decoration: none
+}
+
+.paf-nav ul, .paf-nav li {
+    list-style-type: none
+}
+
+.paf-nav-main {
+    zoom: 1;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius:2px 2px 0 0;
+    border-radius:2px 2px 0 0;
+    background:#F5F5F5;
+    background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -ms-linear-gradient(#F5F5F5, #F1F1F1);
+    background: -o-linear-gradient(#F5F5F5, #F1F1F1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#F1F1F1)
+}
+
+.paf-nav-main:before, .paf-nav-main:after {
+    content: "\0020";
+    display: table;
+    clear: both;
+    height: 0;
+}
+
+.paf-nav-item {
+    float: left;
+}
+
+.paf-nav-item a {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    height: 40px;
+    padding: 0 16px;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+}
+
+.paf-nav-item a:hover {
+    background: #ffa358;
+    color: #fff;
+}
+
+.paf-nav-item-current a, .paf-nav-item-current a:hover {
+    background-color: #FF9138;
+    color: #fff;
+}
+
+.paf-nav-submain {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    margin: 0;
+    padding: 0
+}
+
+.paf-nav-subitem {
+    float: left;
+    margin: 6px 0px 0 0;
+}
+
+.paf-nav-subitem a {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0 12px;
+    height: 26px;
+    line-height: 26px;
+    background: transparent;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+}
+
+.paf-nav-subitem a:hover {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    background: transparent;
+    color: #ffa358;
+}
+
+.paf-nav-item-current .paf-nav-submain {
+    display: block
+}
+
+.paf-nav-subitem-current a, .paf-nav-subitem-current a:hover {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 14px;
+    background: transparent;
+    color: #FF9138;
+}
+
+.paf-nav-subcontainer {
+    height: 36px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: -webkit-linear-gradient(top, #FEFEFE, #F9F9F9);
+    background: -moz-linear-gradient(top, #FEFEFE, #F9F9F9);
+    background: -ms-linear-gradient(#FEFEFE, #F9F9F9);
+    background: -o-linear-gradient(#FEFEFE, #F9F9F9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FEFEFE, endColorstr=#F9F9F9)
+}
+
+.paf-nav-nosub .paf-nav-subcontainer, .paf-nav-nosub .paf-nav-subitem {
+    display: none
+}
+/*! endblock pafweblib/nav/1.0.0/nav-debug.css */
+
+/*! block consumer/system/0.1.0/type-debug.css */
+/*系统级别的样式重写及常用样式*/
+
+/*
+* link 相关样式
+*/
+a.fn-link:hover, a.fn-link:focus{
+    text-decoration: none;  /*以区别一般跳转式链接，功能式的链接去除下划线*/
+}
+
+body {
+    color: #666; /* C门户系统内部页面几乎都是使用#666做为字体样式,设置全局字体样式为#666*/
+}
+
+body, button, input, select, textarea {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Tahoma, Arial, \5FAE\8F6F\96C5\9ED1,  \5B8B\4F53, "SimSun", sans-serif; /*中文优先雅黑后宋体, 使用utf-8编码及英文双重表示，兼容性更好*/
+}
+/*! endblock consumer/system/0.1.0/type-debug.css */
+
+/*! block consumer/system/0.1.0/layout-debug.css */
+/* 系统级别的统一布局 */
+.layout{
+    width: 950px;
+    margin: 0px auto 10px;
+    zoom: 1; /* for IE6 IE7 */
+}
+.layout-w970{
+    width: 970px;
+}
+.layout .layout-main{
+    float: left;
+    width: 710px;
+    margin-left: 10px;
+}
+.layout .layout-side{
+    float: left;
+    width: 230px;
+}
+.layout:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.mt10{
+    margin-top: 10px;
+}
+/*! endblock consumer/system/0.1.0/layout-debug.css */
+
+/*! block consumer/footer/1.0.0/footer-debug.css */
+/* customer.footer style module */
+.footer-default{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #999;
+    line-height: 2;
+    text-align: center;
+    background: #f5f5f5;
+    border-top: 1px solid #ededed;
+}
+.footer-bar-inner{
+    width: 950px;
+    margin: 0 auto;
+}
+.footer-default a {
+    color: #999;
+    text-decoration: none;
+}
+.footer-default a:hover {
+    text-decoration: underline;
+}
+.footer-default .link-list dt, .footer-default .link-list dd{
+    display: inline;
+}
+.footer-default .link-list a{
+    border-right: 1px solid #ccc;
+    padding: 0 4px;
+}
+.footer-default .link-list a.last{
+    border-right: 0 none;
+}
+.footer-default .cert-cell{
+    margin-bottom: 8px;
+}
+.footer-default .cert-cell a{
+    display: inline-block;
+    width: 53px;
+    height: 34px;
+    background: url("/static/pinganfuweb-modules/consumer/footer/1.0.0/certif.png") no-repeat;
+    text-indent: -9999px;
+}
+.footer-default .cert-cell a.cert1{
+    background-position: 0 -40px;
+}
+.footer-default .cert-cell a.cert1:hover{
+    background-position: 0 -1px;
+}
+.footer-default .cert-cell a.cert2{
+    background-position: -56px -40px;
+}
+.footer-default .cert-cell a.cert2:hover{
+    background-position: -56px 0px;
+}
+/*! endblock consumer/footer/1.0.0/footer-debug.css */

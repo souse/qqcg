@@ -1,0 +1,28 @@
+{
+  "family": "pafweblib",
+  "name": "nav-stacked",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "http://192.168.1.52/pinganfuweb-modules/pafweblib/nav-stacked",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/nav-stack.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "nav-stacked.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

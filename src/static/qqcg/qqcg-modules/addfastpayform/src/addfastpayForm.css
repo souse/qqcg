@@ -1,0 +1,9 @@
+/* consumer.addfastpayForm style module */
+@import "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-state-all.css";
+@import "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css";
+@import "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css";
+@import "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css";
+@import "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css";
+@import "/static/pinganfuweb-modules/pafweblib/form/1.0.0/otp.css";
+@import "/static/pinganfuweb-modules/consumer/sendotp/1.0.0/sendotp.css";
+@import "./box-form.css";

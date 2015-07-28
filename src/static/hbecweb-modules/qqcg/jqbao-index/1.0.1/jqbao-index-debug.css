@@ -1,0 +1,975 @@
+/*! define consumer/jqbao-index/1.0.1/jqbao-index-debug.css */
+/*outter module*/
+
+/*! block pafweblib/box/1.0.0/box-debug.css */
+/* pafweblib.box 样式模块 */
+
+.paf-box {
+    border: 1px solid #ededed;
+    zoom: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.paf-box:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.paf-box-follow /*--使用在box和上面的box相连的情况下 --*/ {
+    border-top: none;
+}
+
+.paf-box-head {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background: #fcfcfc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fafafa));
+    background: -moz-linear-gradient(top, #fcfcfc, #fafafa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#fafafa');
+    background: -o-linear-gradient(top, #fcfcfc, #fafafa);
+    background: linear-gradient(top, #fcfcfc, #fafafa);
+    zoom: 1;
+}
+
+.paf-box-forehead{
+    border-bottom: 0 none;
+}
+
+.paf-box-head .paf-box-head-title {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.paf-box-head .paf-box-head-more {
+    float: right;
+}
+
+.paf-box-head .paf-box-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+
+.paf-box-container {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.paf-box-content /* 可选，用于默认有内边距的box */ {
+    padding: 10px;
+}
+/*! endblock pafweblib/box/1.0.0/box-debug.css */
+
+/*! block pafweblib/btn/2.0.0/btn-debug.css */
+/* 默认样式 */
+.paf-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 11px 18px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 16px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-btn:hover,
+.paf-btn:focus,
+.paf-btn:active,
+.paf-btn.active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+}
+
+.paf-btn.disabled,
+.paf-btn[disabled],
+.paf-btn[disabled]:hover,
+.paf-btn[disabled]:active{
+    color: #818181;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+/* 可选项: 尺寸大小 */
+.paf-btn-large {
+    padding: 13px 21px;
+    font-size: 20px;
+}
+
+.paf-btn-small {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/* 颜色可选项: primary、info */
+.paf-btn-primary {
+    color: #ffffff;
+    border-color: #0087e3;
+    background-color: #0087e3;
+}
+
+.paf-btn-primary:hover,
+.paf-btn-primary:focus,
+.paf-btn-primary:active,
+.paf-btn-primary.active {
+    border-color: #0a77cf;
+    background-color: #0a77cf;
+}
+
+/* 主颜色背景下的按钮 */
+.paf-btn-bg-primary{
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #fff;
+}
+.paf-btn-bg-primary:hover,
+.paf-btn-bg-primary:focus,
+.paf-btn-bg-primary:active,
+.paf-btn-bg-primary.active {
+    color: #0087e3;
+    border-color: #fff;
+    background-color: #fff;
+}
+/*! endblock pafweblib/btn/2.0.0/btn-debug.css */
+
+/*! block pafweblib/table/1.0.0/table-debug.css */
+/* 表格样式 module */
+paf-table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.paf-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.paf-table th,
+.paf-table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.paf-table th {
+    font-weight: bold;
+}
+
+.paf-table thead th {
+    vertical-align: bottom;
+}
+
+.paf-table caption + thead tr:first-child th,
+.paf-table caption + thead tr:first-child td,
+.paf-table colgroup + thead tr:first-child th,
+.paf-table colgroup + thead tr:first-child td,
+.paf-table thead:first-child tr:first-child th,
+.paf-table thead:first-child tr:first-child td {
+    border-top: 0;
+}
+
+.paf-table tbody + tbody {
+    border-top: 2px solid #dddddd;
+}
+
+.paf-table .paf-table {
+    background-color: #ffffff;
+}
+
+.paf-table.condensed th,
+.paf-table.condensed td {
+    padding: 4px 5px;
+}
+
+.paf-table-bordered {
+    border: 1px solid #dddddd;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.paf-table-bordered th,
+.paf-table-bordered td {
+    border-left: 1px solid #dddddd;
+}
+
+.paf-table-bordered caption + thead tr:first-child th,
+.paf-table-bordered caption + tbody tr:first-child th,
+.paf-table-bordered caption + tbody tr:first-child td,
+.paf-table-bordered colgroup + thead tr:first-child th,
+.paf-table-bordered colgroup + tbody tr:first-child th,
+.paf-table-bordered colgroup + tbody tr:first-child td,
+.paf-table-bordered thead:first-child tr:first-child th,
+.paf-table-bordered tbody:first-child tr:first-child th,
+.paf-table-bordered tbody:first-child tr:first-child td {
+    border-top: 0;
+}
+
+.paf-table-bordered thead:first-child tr:first-child > th:first-child,
+.paf-table-bordered tbody:first-child tr:first-child > td:first-child,
+.paf-table-bordered tbody:first-child tr:first-child > th:first-child {
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+}
+
+.paf-table-bordered thead:first-child tr:first-child > th:last-child,
+.paf-table-bordered tbody:first-child tr:first-child > td:last-child,
+.paf-table-bordered tbody:first-child tr:first-child > th:last-child {
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+}
+
+.paf-table-bordered thead:last-child tr:last-child > th:first-child,
+.paf-table-bordered tbody:last-child tr:last-child > td:first-child,
+.paf-table-bordered tbody:last-child tr:last-child > th:first-child,
+.paf-table-bordered tfoot:last-child tr:last-child > td:first-child,
+.paf-table-bordered tfoot:last-child tr:last-child > th:first-child {
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+}
+
+.paf-table-bordered thead:last-child tr:last-child > th:last-child,
+.paf-table-bordered tbody:last-child tr:last-child > td:last-child,
+.paf-table-bordered tbody:last-child tr:last-child > th:last-child,
+.paf-table-bordered tfoot:last-child tr:last-child > td:last-child,
+.paf-table-bordered tfoot:last-child tr:last-child > th:last-child {
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+}
+
+.paf-table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+
+.paf-table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+.paf-table-bordered caption + thead tr:first-child th:first-child,
+.paf-table-bordered caption + tbody tr:first-child td:first-child,
+.paf-table-bordered colgroup + thead tr:first-child th:first-child,
+.paf-table-bordered colgroup + tbody tr:first-child td:first-child {
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+}
+
+.paf-table-bordered caption + thead tr:first-child th:last-child,
+.paf-table-bordered caption + tbody tr:first-child td:last-child,
+.paf-table-bordered colgroup + thead tr:first-child th:last-child,
+.paf-table-bordered colgroup + tbody tr:first-child td:last-child {
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+}
+
+.paf-table-striped tbody > tr:nth-child(odd) > td,
+.paf-table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+
+.paf-table-hover tbody tr:hover > td,
+.paf-table-hover tbody tr:hover > th {
+    background-color: #f5f5f5;
+}
+
+.paf-table-fixed{
+    table-layout: fixed;
+    border-collapse:separate;
+}
+.paf-table-break{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+/*! endblock pafweblib/table/1.0.0/table-debug.css */
+
+/*! block pafweblib/form/1.0.0/form-debug.css */
+/*
+** form
+** @Author: xujia
+*/
+.paf-form {
+    font-size: 14px;
+    color: #333;
+}
+
+.paf-form fieldset {
+    border:0;
+}
+
+.paf-form legend {
+    display: none;
+}
+
+.paf-form .control-group {
+    margin-bottom: 10px;
+    *zoom: 1;
+}
+
+.paf-form .control-group:before,
+.paf-form .control-group:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+
+.paf-form .control-label {
+    float: left;
+    width: 160px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.paf-form .controls {
+    line-height: 30px;
+    margin-left: 170px;
+    color: #666;
+}
+
+.paf-form input{
+    padding: 6px 4px;
+    width: 230px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #bbb;
+    color: #666;
+}
+
+.paf-form select{
+    width: 240px;
+    height: 30px;
+    border: 1px solid #bbb;
+    color: #666;
+}
+
+.paf-form textarea {
+    line-height: 16px;
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+    width: 230px;
+    height: 48px;
+    overflow: auto;
+    font-size: 14px;
+}
+.paf-form .control-group-checkbox .controls{
+    line-height: 1.4;
+    font-size: 12px;
+    cursor: default;
+}
+.paf-form .control-group-checkbox .checkbox{
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
+    margin-right: 4px;
+    padding: 0px;
+    border: 0 none;
+}
+
+.paf-form .control-group-btn .controls{
+    width: 238px;
+}
+
+.paf-form .control-group-btn button{
+    margin-right: 8px;
+}
+
+.paf-form input:active, .paf-form input:focus, .paf-form input:hover,
+.paf-form textarea:active, .paf-form textarea:focus, .paf-form textarea:hover{
+    border: 1px #aaa solid;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0
+}
+
+.paf-form input:disabled,.paf-form input.disabled,
+.paf-form textarea:disabled,.paf-form textarea.disabled{
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.paf-form :-moz-placeholder,.paf-form :-ms-input-placeholder,.paf-form :-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.paf-form .help-block{
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.paf-form .help-inline{
+    margin-left: 8px;
+    color: #aaa;
+}
+
+.paf-form .control-group-error input{
+    border: 1px solid #f00;
+}
+
+.paf-form .control-group-error .help-block{
+    color: #f00;
+    padding: 4px 0 0;
+}
+
+.paf-form .control-group-success .help-block{
+    color: #659324;
+    padding: 4px 0 0;
+}
+/*! endblock pafweblib/form/1.0.0/form-debug.css */
+
+/*! block pafweblib/form/1.0.0/select-debug.css */
+/*
+** select
+** @Author:
+*/
+
+/* Base styles */
+.paf-select {
+    display: inline-block;
+    position: relative;
+    width: 240px;
+}
+
+.paf-select select {
+    display: none;
+}
+
+.paf-select .selectHeader{
+    height: 30px;
+    padding: 0 30px 0 4px;
+    line-height: 30px;
+    border: solid 1px #b7b7b7;
+    cursor: pointer;
+}
+.paf-select .selectHeader .text-input {
+    float: left;
+    padding: 0 4px 0 0;
+}
+.paf-select .selectHeader .icon-form-selectarrow{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.paf-select .selectBody {
+    display: none;
+    position: absolute;
+    top: 31px;
+    width: 100%;
+    margin: 0;
+    padding: 1px 0;
+    z-index: 5;
+    max-height: 180px;
+    overflow: auto;
+    background-color: #b7b7b7;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.paf-select .selectBody .option {
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 1px;
+    padding: 0 4px;
+    background-color: #f2f2f2;
+    border-bottom: dotted 1px #b7b7b7;
+    cursor: pointer;
+}
+
+.paf-select .selectBody .option:last-child{
+    border-bottom-width: 0px;
+}
+
+.paf-select .selectBody .option:hover {
+    background-color: #f6f6f6;
+}
+/*! endblock pafweblib/form/1.0.0/select-debug.css */
+
+/*! block pafweblib/icons/1.0.0/icons-form-all-debug.css */
+[class*=icon-form-]{ display: inline-block; background: url(/static/pinganfuweb-modules/pafweblib/icons/1.0.0/sprite-form-all.png) no-repeat top left;}
+.icon-form-check{ background-position: 0 0; width: 18px; height: 18px; }
+.icon-form-checkfocus{ background-position: 0 -68px; width: 18px; height: 18px; }
+.icon-form-selectarrow{ background-position: 0 -136px; width: 22px; height: 22px; }
+/*! endblock pafweblib/icons/1.0.0/icons-form-all-debug.css */
+
+/*! block alice/tab/1.0.1/tab-debug.css */
+/* alice.tab 样式模块 */
+
+@charset "utf-8";
+
+.ui-tab {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-tab li {
+    list-style: none;
+    vertical-align: top;
+    position: relative;
+    top: 1px;
+}
+
+.ui-tab-items {
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 14px;
+}
+
+.ui-tab-item {
+    display: inline-block;
+    display: inline\0; /* fix https://github.com/aliceui/tab/issues/1 */
+    *display: inline;
+    *zoom: 1;
+    *margin-right: 4px;
+}
+
+.ui-tab-item a {
+    border-radius: 3px 3px 0 0;
+    background: #fff;
+    line-height: 32px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #E5E5E5;
+    border-bottom: none;
+    color: #4D4D4D;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.ui-tab-item a,
+.ui-tab-item a:hover,
+.ui-tab-item a:active {
+    color: #4D4D4D;
+}
+
+.ui-tab-item-current a {
+    font-weight: bold;
+    height: 33px;
+}
+
+.ui-tab-item a:hover {
+    background: #f6f6f6;
+    text-decoration: none;
+}
+
+.ui-tab-item-current a:hover {
+    background: #fff;
+}
+/*! endblock alice/tab/1.0.1/tab-debug.css */
+
+/*! block consumer/icons/1.0.0/icons-settingstate-debug.css */
+[class*=icon-settingstate]{display: inline-block; text-indent: -9999px; background: url(/static/pinganfuweb-modules/consumer/icons/1.0.0/icons-settingstate.png) no-repeat top left;}
+.icon-settingstate-on{background-position: 0 0px; width: 16px; height: 16px;}
+.icon-settingstate-off{background-position:0 -31px; width: 16px; height: 16px;}
+/*! endblock consumer/icons/1.0.0/icons-settingstate-debug.css */
+
+/*innner module*/
+
+/*! block consumer/jqbao-index/1.0.1/index-debug.css */
+/* consumer.jqbao-index style module */
+
+/*页面全局样式*/
+.jqbao-index var {
+    color: #0087e3;
+}
+
+.jqbao-index .em {
+    font-size: 24px;
+}
+
+.jqbao-index .title-important {
+    color: #693a2b !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.jqbao-index .mt1 {
+    margin-top: 10px;
+}
+
+/*总账单概况区*/
+.jqbao-creditaccount {
+    line-height: 2;
+}
+
+.jqbao-creditaccount p {
+    display: inline-block;
+}
+
+.jqbao-creditaccount p.important {
+    font-size: 18px;
+}
+
+.jqbao-creditaccount p.odd {
+    margin-right: 32px;
+}
+
+.jqbao-tipbox-lock {
+    position: relative;
+    zoom: 1;
+    line-height: 2;
+}
+
+.jqbao-tipbox-lock .box-icon {
+    background: #fff;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.jqbao-tipbox-lock .box-icon i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("/static/pinganfuweb-modules/consumer/jqbao-index/1.0.1/index.png") no-repeat 0 -35px;
+}
+
+.jqbao-tipbox-lock .box-content {
+    margin: 14px 0 14px 100px
+}
+
+.jqbao-tipbox-lock .box-content .box-title{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jqbao-tipbox-lock .box-content .em{
+    font-size: 16px;
+}
+
+/*借钱宝功能设置区*/
+.jqbao-setting dt {
+    padding: 0px 0 8px;
+}
+
+.jqbao-setting .autodeposit {
+    height: 20px;
+    padding: 12px 0;
+}
+
+.jqbao-setting .icon-settingstate-on {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
+.jqbao-setting .function {
+    margin-left: 10px;
+}
+
+.jqbao-setting .note {
+    color: #909090;
+    margin-left: 10px;
+}
+
+.jqbao-setting button {
+    margin-left: 8px;
+    padding: 8px 14px;
+}
+
+.jqbao-setting .box-bank {
+    position: relative;
+    top: -8px;
+    margin-left: 48px;
+    line-height: 20px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.jqbao-setting .box-bank span {
+    margin-right: 8px;
+}
+
+.jqbao-setting .box-bank .name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0a0a0a;
+}
+
+.jqbao-setting .box-bank .kind {
+    margin-right: 0px;
+}
+
+.jqbao-setting .autodeposit .changebank {
+    position: relative;
+    top: -8px;
+    margin-right: 0px;
+}
+
+/*借钱宝账单表格*/
+.jqbao-billaccounttable {
+    margin-bottom: 0;
+}
+
+.jqbao-billaccounttable tr th {
+    background: #fafafa;
+    width: 20%;
+}
+
+.jqbao-billaccounttable th, .jqbao-billaccounttable td {
+    text-align: center;
+}
+
+.jqbao-billaccounttable .fn-rmb {
+    padding-left: 4px;
+}
+
+#jqbaoMonthRegion{
+    margin-right: 10px;
+    display: none;
+}
+
+/*借钱宝账单月份切换下拉框*/
+.jqbao-monthselect {
+    top: -8px;
+    width: 88px;
+    background: #0087e3;
+    text-align: center;
+}
+
+.jqbao-monthselect .selectHeader {
+    border-color: #0087e3;
+    color: #fff;
+    padding-right: 28px;
+    padding-left: 8px;
+}
+
+.jqbao-monthselect .selectHeader .icon-form-selectarrow {
+    right: 8px;
+}
+
+.jqbao-monthselect.paf-select-open .selectHeader {
+    background-color: #f6f6f6;
+    border-color: #b7b7b7;
+    color: #0087e3;
+}
+
+.jqbao-monthselect .selectHeader .icon-form-selectarrow {
+    top: 10px;
+    width: 14px;
+    height: 12px;
+    background: url("/static/pinganfuweb-modules/consumer/jqbao-index/1.0.1/index.png") no-repeat -2px 0;
+}
+
+.jqbao-monthselect.paf-select-open .selectHeader .icon-form-selectarrow {
+    background-position: 0 -17px;
+}
+
+.jqbao-monthselect .selectBody {
+    max-height: 182px;
+}
+
+.jqbao-monthselect .selectBody .option-owe {
+    color: #f10000;
+}
+
+.jqbao-monthselect .selectBody .option-disabled{
+    color: #aaa;
+}
+.jqbao-monthselect .selectBody .option-disabled:hover{
+    background-color: #f2f2f2;
+    cursor: default;
+}
+
+/*借钱宝还款状态*/
+.jqbao-state {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.jqbao-state .icon-settingstate-on {
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+}
+
+.jqbao-state .attr {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+/*借钱宝账单剩余费用计算区*/
+.jqbao-formula {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.jqbao-formula var, .jqbao-formula .var {
+    padding: 0 6px;
+}
+
+.jqbao-formula .formula .em {
+    font-size: 24px;
+}
+
+.jqbao-formula label{
+    margin:0 12px 0 48px;
+}
+
+.jqbao-formula .lessimportant{
+    color: #999;
+}
+
+/*借钱宝还款表单区*/
+.jqbao-form fieldset {
+    float: right;
+    position: relative;
+    margin-top: 24px;
+    margin-right: 120px;
+}
+
+.jqbao-form .money-control-group {
+    margin-top: 16px;
+}
+
+.jqbao-form .money-control-group .help-inline {
+    position: absolute;
+    top: -14px;
+    width: 276px;
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.jqbao-form .money-control-group input {
+    width: 218px;
+    height: 20px;
+}
+
+.jqbao-form .control-group-btn .controls {
+    position: absolute;
+    right: -120px;
+    top: 16px;
+    width: 120px;
+}
+
+/*借钱宝月账单tab区*/
+.jqbao-billdetailtab {
+    width: 790px;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-top: 16px;
+    border-top: 1px dotted #efefef;
+}
+
+.jqbao-billdetailtab .ui-tab-item a {
+    padding: 0 24px;
+}
+
+.jqbao-billdetailtab .ui-tab-item:first-child {
+    margin-left: 10px;
+}
+
+.jqbao-billdetailtab .panels {
+    padding: 10px;
+}
+
+.jqbao-billdetailtab .panels .panel {
+    display: none;
+}
+
+/*借钱宝月账单表格区*/
+.jqbao-billdetailtable th {
+    background-color: #fafafa;
+}
+
+.jqbao-billdetailtable .date {
+    width: 240px;
+}
+
+.jqbao-billdetailtable .object {
+    width: auto;
+}
+
+.jqbao-billdetailtable .money {
+    width: 200px;
+}
+
+.jqbao-billdetailtable .info, .jqbao-billdetailtable .loading {
+    padding: 24px 12px;
+    text-align: center;
+}
+
+.jqbao-billdetailtable .more {
+    padding-left: 10px;
+}
+.bank a{color: #0087e3;}
+/*! endblock consumer/jqbao-index/1.0.1/index-debug.css */
+
+/*! block consumer/jqbao-index/1.0.1/banklist-debug.css */
+.banklistBox{top: 0;left: 0;width: 100%;height: 100%;position: fixed;z-index: 1000;}
+.banklistBoxBlock{top: 0;left: 0;width: 100%;height: 100%;position: fixed;z-index: -1;background: #000;opacity: 0.5;filter: alpha(opacity=50);}
+.banklistBox .banklistBody {font-size: 16px;position: absolute;z-index: 102;left: 50%;top: 50%;width: 760px;min-height: 300px;padding:0 20px 20px;margin: -260px 0 0 -400px;background: #F7F7F7;border-radius: 4px;overflow: hidden;}
+.banklistBody .banklistHeader{line-height: 40px;overflow: auto;clear: both;border-bottom: 1px solid #e6e6e6;padding-left: 10px;}
+.banklistHeader span{display: inline-block;}
+.banklistHeader .banklistClose{float: right;width: 40px;text-align: right;font-size: 28px;cursor: pointer;}
+.banklistBody .banklistInfo{line-height: 24px;font-size: 14px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;}
+.banklistBody .banklistShowBox{max-height: 320px;min-height: 180px;background: #fcfcfc;border: 1px solid #e6e6e6;}
+.banklistShowBox ul.banks{zoom: 1;width: 730px;margin: 0;list-style: none;padding-left: 28px;max-height: 300px;overflow-y: auto;}
+.banklistShowBox ul.banks li.bank{display: inline-block;width: 32%;overflow: hidden;padding-top: 16px;line-height: 40px;vertical-align: middle;}
+.banklistShowBox ul.banks label{height: auto;cursor: pointer;display: block;}
+.banklistShowBox ul.banks input{display: inline-block;margin: 0;vertical-align: middle;margin-right: 5px;}
+.banklistShowBox ul.banks .box-icon {width: 180px;display: inline-block;padding: 0px 8px;margin: 1px;border: 1px solid #ccc;}
+.banklistShowBox ul.banks li.active .box-icon {margin: 0;border: 2px solid #0087e3;}
+.banklistShowBox ul.banks .box-icon .spanBankName{display: inline-block;float: left;width: 105px;padding-right: 10px;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+.banklistShowBox ul.banks .box-icon .spanBankNo{font-size: 14px;display: inline-block;}
+.banklistBody .banklistSureBtn{width: 105px;line-height: 32px;margin: 10px auto 0;background: #0087e3;text-align: center;color: #fff;cursor: pointer;display: block;}
+.banklistBody .banklistSureBtn:hover {background: #0a77cf;}
+/*! endblock consumer/jqbao-index/1.0.1/banklist-debug.css */

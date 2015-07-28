@@ -1,0 +1,12 @@
+{
+  "family": "consumer",
+  "name": "safecenter-baseinfo",
+  "version": "1.0.0",
+  "description": "基本信息页面",
+  "spm": {
+    "output": [
+      "baseinfo.css"
+    ],
+    "alias": {}
+  }
+}

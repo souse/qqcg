@@ -1,0 +1,437 @@
+/*! define consumer/applicationcenter-payment/1.0.0/payment-debug.css */
+/* consumer.payment style module */
+
+@charset "UTF-8";
+
+/*! block pafweblib/box/1.0.0/box-debug.css */
+/* pafweblib.box 样式模块 */
+
+.paf-box {
+    border: 1px solid #ededed;
+    zoom: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.paf-box:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.paf-box-follow /*--使用在box和上面的box相连的情况下 --*/ {
+    border-top: none;
+}
+
+.paf-box-head {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background: #fcfcfc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fafafa));
+    background: -moz-linear-gradient(top, #fcfcfc, #fafafa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#fafafa');
+    background: -o-linear-gradient(top, #fcfcfc, #fafafa);
+    background: linear-gradient(top, #fcfcfc, #fafafa);
+    zoom: 1;
+}
+
+.paf-box-forehead{
+    border-bottom: 0 none;
+}
+
+.paf-box-head .paf-box-head-title {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.paf-box-head .paf-box-head-more {
+    float: right;
+}
+
+.paf-box-head .paf-box-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+
+.paf-box-container {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.paf-box-content /* 可选，用于默认有内边距的box */ {
+    padding: 10px;
+}
+/*! endblock pafweblib/box/1.0.0/box-debug.css */
+
+/*! block pafweblib/btn/2.0.0/btn-debug.css */
+/* 默认样式 */
+.paf-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 11px 18px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 16px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-btn:hover,
+.paf-btn:focus,
+.paf-btn:active,
+.paf-btn.active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+}
+
+.paf-btn.disabled,
+.paf-btn[disabled],
+.paf-btn[disabled]:hover,
+.paf-btn[disabled]:active{
+    color: #818181;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+/* 可选项: 尺寸大小 */
+.paf-btn-large {
+    padding: 13px 21px;
+    font-size: 20px;
+}
+
+.paf-btn-small {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/* 颜色可选项: primary、info */
+.paf-btn-primary {
+    color: #ffffff;
+    border-color: #0087e3;
+    background-color: #0087e3;
+}
+
+.paf-btn-primary:hover,
+.paf-btn-primary:focus,
+.paf-btn-primary:active,
+.paf-btn-primary.active {
+    border-color: #0a77cf;
+    background-color: #0a77cf;
+}
+
+/* 主颜色背景下的按钮 */
+.paf-btn-bg-primary{
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #fff;
+}
+.paf-btn-bg-primary:hover,
+.paf-btn-bg-primary:focus,
+.paf-btn-bg-primary:active,
+.paf-btn-bg-primary.active {
+    color: #0087e3;
+    border-color: #fff;
+    background-color: #fff;
+}
+/*! endblock pafweblib/btn/2.0.0/btn-debug.css */
+
+/*! block pafweblib/notify/1.0.0/notify-debug.css */
+/* 提示信息框模块 */
+
+/* 基础样式 */
+.paf-notify {
+    display: block;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 1.4;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    color: inherit;
+}
+
+.paf-notify h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.paf-notify p{
+    margin: 0;
+}
+
+.paf-notify .close {
+    float: right;
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.paf-notify .close:hover,
+.paf-notify .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+/* 替换类型: success、info、warn、error  */
+.paf-notify-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.paf-notify-success h4 {
+    color: #468847;
+}
+
+.paf-notify-warn {
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+}
+
+.paf-notify-warn h4 {
+    color: #c09853;
+}
+
+.paf-notify-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.paf-notify-error h4 {
+    color: #b94a48;
+}
+
+.paf-notify-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.paf-notify-info h4 {
+    color: #3a87ad;
+}
+/*! endblock pafweblib/notify/1.0.0/notify-debug.css */
+
+/*! block pafweblib/form/1.0.0/form-debug.css */
+/*
+** form
+** @Author: xujia
+*/
+.paf-form {
+    font-size: 14px;
+    color: #333;
+}
+
+.paf-form fieldset {
+    border:0;
+}
+
+.paf-form legend {
+    display: none;
+}
+
+.paf-form .control-group {
+    margin-bottom: 10px;
+    *zoom: 1;
+}
+
+.paf-form .control-group:before,
+.paf-form .control-group:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+
+.paf-form .control-label {
+    float: left;
+    width: 160px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.paf-form .controls {
+    line-height: 30px;
+    margin-left: 170px;
+    color: #666;
+}
+
+.paf-form input{
+    padding: 6px 4px;
+    width: 230px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #bbb;
+    color: #666;
+}
+
+.paf-form select{
+    width: 240px;
+    height: 30px;
+    border: 1px solid #bbb;
+    color: #666;
+}
+
+.paf-form textarea {
+    line-height: 16px;
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+    width: 230px;
+    height: 48px;
+    overflow: auto;
+    font-size: 14px;
+}
+.paf-form .control-group-checkbox .controls{
+    line-height: 1.4;
+    font-size: 12px;
+    cursor: default;
+}
+.paf-form .control-group-checkbox .checkbox{
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
+    margin-right: 4px;
+    padding: 0px;
+    border: 0 none;
+}
+
+.paf-form .control-group-btn .controls{
+    width: 238px;
+}
+
+.paf-form .control-group-btn button{
+    margin-right: 8px;
+}
+
+.paf-form input:active, .paf-form input:focus, .paf-form input:hover,
+.paf-form textarea:active, .paf-form textarea:focus, .paf-form textarea:hover{
+    border: 1px #aaa solid;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0
+}
+
+.paf-form input:disabled,.paf-form input.disabled,
+.paf-form textarea:disabled,.paf-form textarea.disabled{
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.paf-form :-moz-placeholder,.paf-form :-ms-input-placeholder,.paf-form :-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.paf-form .help-block{
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.paf-form .help-inline{
+    margin-left: 8px;
+    color: #aaa;
+}
+
+.paf-form .control-group-error input{
+    border: 1px solid #f00;
+}
+
+.paf-form .control-group-error .help-block{
+    color: #f00;
+    padding: 4px 0 0;
+}
+
+.paf-form .control-group-success .help-block{
+    color: #659324;
+    padding: 4px 0 0;
+}
+/*! endblock pafweblib/form/1.0.0/form-debug.css */
+
+/*! block consumer/applicationcenter-payment/1.0.0/payment-main-debug.css */
+@charset "utf-8";
+
+.pay-main .pay-box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.pay-main textarea{
+	height: 100px;
+}
+.pay-main .smallText{
+	width: 150px;
+}
+.pay-main .text-info{
+	position: relative;
+	overflow: auto;
+}
+.pay-main #submitBut{
+	min-width: 100px;
+}
+.text-info .text-set{
+	position: absolute;
+	margin-left: 10px;
+	color: #aaa;
+}
+.pay-main .ajax-error.hidden{
+	display: none;
+}
+
+.pay-main .model-error{
+	color: red;
+}
+
+.back-error {
+	display: block;
+	background: #FFF1E5;
+	color: #FF9138;
+	line-height: 28px;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+/*! endblock consumer/applicationcenter-payment/1.0.0/payment-main-debug.css */

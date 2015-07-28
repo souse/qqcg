@@ -1,0 +1,20 @@
+{
+    "family": "qqcg",
+    "name": "build_o",
+    "version": "0.0.2",
+    "description": "test page",
+    "author": "brucecham",
+    "maintainers": [
+        "brucecham",
+        "brucecham@qq.com"
+    ],
+    "spm": {
+        "output": [
+            "index.js",
+            "index.css"
+        ],
+        "alias": {
+            
+        }
+    }
+}

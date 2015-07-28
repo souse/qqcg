@@ -1,0 +1,39 @@
+{
+  "family": "consumer",
+  "name": "safecenter-identity",
+  "version": "1.0.0",
+  "description": "账户安全首页",
+  "homepage": "https://github.com/brucecham/index",
+  "author": "brucecham",
+  "maintainers": [
+    "brucecham"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brucecham/index.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "index.js",
+      "layout.js",
+      "index.css",
+      "divnumsprite.png",
+      "identity.png",
+      "msg.png",
+      "num1.png",
+      "num2.png",
+      "num3.png"
+    ],
+    "alias": {
+    	"/static/pinganfuweb-modules/pafweblib/pwdGrd/1.0.1/c-pwdGrd.css":"pafweblib/pwdGrd/1.0.1/c-pwdGrd.css",
+    	"/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

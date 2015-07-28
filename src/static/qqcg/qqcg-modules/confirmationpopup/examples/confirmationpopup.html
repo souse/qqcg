@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C门户确认弹出窗口演示</title>
+    <meta name="description" content="C门户默认尾演示">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="../src/confirmationpopup.css"/>
+</head>
+<body>
+	<input type="button" id="showpopup" value="确定">
+    <!--首先引用"跟业务系统无关"第一级别 js 文件 global.js -->
+    <script type="text/javascript" src="../../../../pinganfuweb-modules/pafweblib/global/0.2.0/js/global.js"></script>
+    <script type="text/javascript">
+	    seajs.config({
+	    	alias: {
+	    		"confirmationpopup": "../src/confirmationpopup",
+	    		"$": "jquery/jquery/1.10.2/jquery"
+	    	}	
+	    });
+	    seajs.use('confirmationpopup', function(Conformation){
+	    		new Conformation();
+            }
+		);
+    </script>
+</body>
+</html>

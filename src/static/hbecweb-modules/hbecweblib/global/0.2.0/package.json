@@ -1,0 +1,43 @@
+{
+    "family": "pafweblib",
+    "name": "global",
+    "version": "0.2.0",
+    "description": "pafweblib的全局模块，平安付web门户各系统都需要引入的第一级静态文件。",
+    "homepage": "http://192.168.1.52/pinganfuweb-modules/pafweblib/global/",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [],
+    "repository": {
+        "type": "git",
+        "url": "http://192.168.0.220/pafweblib/global"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "keywords": ["html5Shim","reset","seajs"],
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-clean":"~0.4.0",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-cssmin": "~0.8.0",
+        "grunt-contrib-uglify": "~0.2.7"
+    },
+    "spm": {
+        "include": "all",
+        "alias": {
+            "iconfont.css":"pafweblib/iconfont/0.1.0/iconfont.css",
+            "seajs": "seajs/seajs/2.2.1/seajs",
+            "seajs-log": "seajs/seajs-log/1.0.1/seajs-log",
+            "seajs-style": "seajs/seajs-style/1.0.1/seajs-style",
+            "seajs-text": "seajs/seajs-text/1.0.2/seajs-text",
+            "$": "jquery/jquery/1.10.2/jquery",
+            "json": "gallery/json/1.0.3/json"
+        },
+        "output": ["css/global.css","js/global.js", "js/html5Shim.js"]
+    }
+}
+

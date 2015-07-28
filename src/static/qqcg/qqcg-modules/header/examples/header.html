@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C门户默认头的所有样式演示</title>
+    <meta name="description" content="C门户默认头的所有样式演示">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--首先引用"跟业务系统无关"的第一级别样式文件 global.css -->
+    <link rel="stylesheet" href="../../../../pinganfuweb-modules/pafweblib/global/0.2.0/css/global.css"/>
+
+    <!-- 子系统公用逻辑模块 css 文件 -->
+    <!--<link rel="stylesheet" href="../../../../pinganfuweb-modules/customer/system/0.1.0/system.css"/>-->
+    <link rel="stylesheet" href="../src/header.css"/>
+
+    <!-- 引用 html5shim 文件 -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript"
+            src="../../../../pinganfuweb-modules/pafweblib/global/0.2.0/js/html5Shim.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!--未登陆状态-->
+    <header>
+        <div class="header-login-bar">
+            <div class="header-bar-inner fn-clear">
+                <ul class="main-cell">
+                    <li><a title="壹钱包个人门户" class="current" href="/">个人</a></li>
+                    <li><a title="壹钱包商户门户" href="/merchant">商户</a></li>
+                </ul>
+                <ul class="sub-cell">
+                    <li><a title="壹钱包个人门户" class="split" href="/">壹钱包首页</a></li>
+                    <li><a title="壹钱包个人门户-帮助中心" class="split" href="/">帮助中心</a></li>
+                    <li class="link-group last"><a title="壹钱包个人门户-登录" href="/">登录</a>-<a title="壹钱包个人门户-注册" href="/">注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-logo-bar">
+            <h1><a title="壹钱包官网" href="/">壹钱包 1qianbao.com 中国平安集团成员</a></h1>
+            <ul class="nav-list">
+                <li><a class="split" href="">公司介绍</a></li>
+                <li><a class="split" href="">移动APP</a></li>
+                <li><a class="split" href="">在线支付</a></li>
+                <li><a class="" href="">商户导航</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--登陆状态-->
+    <header>
+        <div class="header-login-bar">
+            <div class="header-bar-inner fn-clear">
+                <ul class="sub-cell">
+                    <li><a title="壹钱包个人门户" class="split" href="/">壹钱包首页</a></li>
+                    <li><a title="壹钱包个人门户-帮助中心" class="split" href="/">帮助中心</a></li>
+                    <li class="link-group last"><span class="name">您好，<var>徐佳</var></span><a title="壹钱包个人门户-登录" href="/">退出</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-logo-bar">
+            <h1><a title="壹钱包官网" href="/">壹钱包 1qianbao.com 中国平安集团成员</a><span class="system">收银台</span></h1>
+            <section class="help-cell">
+                <h3>客服电话：400-888-0999</h3>
+                <p>08:00 - 22:00</p>
+            </section>
+        </div>
+    </header>
+
+
+
+
+    <!--首先引用"跟业务系统无关"第一级别 js 文件 global.js -->
+    <script type="text/javascript" src="../../../../pinganfuweb-modules/pafweblib/global/0.2.0/js/global.js"></script>
+
+</body>
+</html>

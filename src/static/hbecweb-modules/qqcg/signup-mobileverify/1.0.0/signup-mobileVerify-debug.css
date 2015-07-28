@@ -1,0 +1,76 @@
+/*! define consumer/signup-mobileverify/1.0.0/signup-mobileVerify-debug.css */
+/* consumer.mobilesignup style module */
+
+/*! block pafweblib/form/1.0.0/captcha-debug.css */
+/*
+** captcha 图片验证码
+** @Author: xujia624
+*/
+
+.control-captcha:after{
+    content: '\0020';
+    display: block;
+    clear: both;
+    line-height: 0;
+}
+
+.control-captcha .captcha-input{
+    width: 150px;
+    float: left;
+}
+
+.control-captcha .captcha-img{
+    float: left;
+    width: 70px;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 30px;
+}
+/*! endblock pafweblib/form/1.0.0/captcha-debug.css */
+
+/*! block pafweblib/form/1.0.0/otp-debug.css */
+/*
+** captcha 图片验证码
+** @Author: xujia624
+*/
+
+.control-otp:after{
+    content: '\0020';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.control-otp .otp-input{
+    width: 150px;
+    float: left;
+}
+
+.control-otp .otp-button{
+    float: left;
+    min-width: 70px;
+    margin-left: 10px;
+    height: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+/*! endblock pafweblib/form/1.0.0/otp-debug.css */
+
+/*! block consumer/signup-mobileverify/1.0.0/mobileVerify-debug.css */
+/* consumer.mobilesignup style module */
+.grid-col-25{
+    background-color: #FBFBFB;
+    border: 1px solid #eee;
+}
+
+.mobileVerifyForm{
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.mobileVerifyForm fieldset{
+    padding: 20px;
+}
+/*! endblock consumer/signup-mobileverify/1.0.0/mobileVerify-debug.css */

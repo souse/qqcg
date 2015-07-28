@@ -1,0 +1,56 @@
+/* consumer.errorpopup style module */
+
+@charset "UTF-8";
+
+.errorLayout{
+	width: 658px;
+	min-height: 135px;
+	margin: 0 auto;
+	border: 1px solid #ededed;
+	padding: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 200;
+	background: #fff;
+	margin:-100px 0 0 -329px;
+}
+.errorLayout .title-fail{
+	text-align: right;
+}
+.errorLayout .cancle{
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	display: inline-block;
+	background: url("./close.png") no-repeat;
+}
+.errorLayout .nav-fail{
+	margin-top: 10px;
+	text-align: center;
+}
+.errorLayout .nav-fail-msg{
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.errorLayout .fail-confirm{
+	width: 85px;
+	height: 30px;
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+	background: #ff9138;
+	color: #fff;
+	cursor: pointer;
+}
+.errorLayout .fail-confirm:hover{
+	background:#ff8200;
+}
+.errorLayout .textset{min-width: 200px;}
+.mask{
+	background: #000;
+	opacity:.4;
+	position:absolute; left:0; top:0;filter:alpha(opacity=40);
+}

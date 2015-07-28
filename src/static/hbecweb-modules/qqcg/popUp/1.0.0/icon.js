@@ -1,0 +1,1 @@
+define("consumer/popUp/1.0.0/icon",["jquery/jquery/1.10.2/jquery"],function(a,b){function c(){e.length>0&&e.hover(function(){d(this).removeClass("iconNormal").addClass("iconHover")},function(){d(this).removeClass("iconHover").addClass("iconNormal")})}var d=a("jquery/jquery/1.10.2/jquery"),e=d("#questionnaireIcon");b.init=function(){c()}});

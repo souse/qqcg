@@ -1,0 +1,21 @@
+/*! define consumer/cashierorderlayout/1.0.0/cashierorderlayout-debug.css */
+/* consumer.cashierorderlayout style module */
+
+.cashier-order{margin-bottom: 20px;}
+.orderset{width: 960px; margin-left: auto; margin-right: auto;}
+.cashier-order .ordermsg, .cashier-order .preferential, .cashier-order .actual{font-size: 14px;}
+.cashier-order .orderdetail{margin-bottom: 5px; background-color: #eaeaea; font-size: 12px; padding: 10px 0;}
+.cashier-order .actual{color: #0087e3;}
+.cashier-order .preferentialmsg{font-size: 12px; background: #eaeaea; padding: 10px 0;}
+.order-info .pic{color: #0087e3; cursor: pointer;}
+.order-info .customer-name{margin-right: 50px;}
+.order-info .mptext{margin-right: 125px; display: inline-block; width: 120px;}
+.order-info .detail-info{margin-bottom: 10px;}
+.order-info .lfwell{margin-right: 50px; width: 215px; display: inline-block;}
+.order-info .merchantname{margin-bottom: 0px;}
+
+.money-info{position: relative; min-width: 50px; display: inline-block; text-align: right;}
+.money-info .yuan{font-size: 20px; font-weight: normal;}
+.money-info .fen{position: absolute; font-size: 14px; font-style: normal;}
+.money-info .yang{position: absolute;}
+.hidden{display: none;}

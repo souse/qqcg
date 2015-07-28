@@ -1,0 +1,59 @@
+/*! define consumer/helpcenter/1.0.0/helpcenter-debug.css */
+/* consumer.helpcenter style module */
+
+/*! block consumer/helpcenter/1.0.0/helpcenter-main-debug.css */
+.title{padding-left: 20px;margin: -15px 5px 15px;}
+.title h1{font-size: 1.6em; color: #464646;}
+.helpcenterBody .answers{border: 1px solid #ededed;padding-bottom: 40px;}
+.helpcenterBody .phone{margin-top: 20px; text-align: right; padding-right: 20px; color: #0087e3;}
+.helpcenterBody ul{list-style-type: none; padding: 0; margin: 0;border: 1px solid #eee;border-bottom: 0px;}
+.helpcenterBody li{ height: 40px; line-height: 40px; border-bottom: 1px solid #ededed; padding-left: 20px; background-color: #fcfcfc; cursor: pointer;}
+.helpcenterBody li .sp2{float: right; padding-right: 20px;}
+.helpcenterBody li.curr, .questions li:hover{background-color: #0087E3; color: #fff;}
+.answers .quest-title{margin-bottom: 15px; margin-top: 15px; margin-left: 38px; background: url('./help-center.png') no-repeat 0 1px; padding-left: 25px;height: 21px; line-height: 21px;}
+.answers .quest-title h2{font-size: 1.4em; color: #0087e3;}
+.answers .answers-text{margin-left: 45px; margin-right: 40px; border-bottom: 1px dashed #ededed; padding-bottom: 20px; margin-bottom: 20px;}
+.answers-text .quest-text{line-height: 30px; font-size: 14px; font-weight: bold; color: #666;}
+.answers-text p{line-height: 20px; padding-left: 19px; font-size: 12px; color: #999999;}
+
+.answers .setpng{margin-left: 19px;}
+.answers .can_window1{width: 560px; height: 160px; background: url('./can_window1.png') top left no-repeat;}
+.answers .can_window2{width: 390px; height: 155px; background: url('./can_window2.png') top left no-repeat;}
+.answers .can_mac{width: 390px; height: 115px; background: url('./can_mac.png') top left no-repeat;}
+.answers .atl1{width: 355px; height: 205px; background: url('./atl1.png') top left no-repeat;}
+.answers .atl2{width: 545px; height: 330px; background: url('./atl2.png') top left no-repeat;}
+.answers .saf{width: 355px; height: 415px; background: url('./saf.png') top left no-repeat;}
+/*! endblock consumer/helpcenter/1.0.0/helpcenter-main-debug.css */
+
+/*! block consumer/popUp/1.0.0/icon-debug.css */
+	.consumer-questionnaire-icon {
+		position: fixed;
+		bottom: 0;
+		z-index: 99;
+		overflow: hidden;
+		right: 0;
+		width: 100px;
+		height: 100px;
+	}
+	.consumer-questionnaire-icon   .iconContent{
+		position: absolute;
+	    background-image: url("/static/pinganfuweb-modules/consumer/popUp/1.0.0/icons.png");
+	    bottom: 10px;
+	    right: 10px;
+	    height: 40px;	   
+	    width: 40px;
+	    cursor: pointer;
+	}
+	.consumer-questionnaire-icon   .iconContent a{
+		display:block;
+		width:100%;
+		height:100%;
+		text-indent: -9999px;
+	}
+	.consumer-questionnaire-icon   .iconNormal{
+		 background-position: 0 -50px;
+	}
+	.consumer-questionnaire-icon   .iconHover{
+	   background-position: 0 0;
+	}
+/*! endblock consumer/popUp/1.0.0/icon-debug.css */

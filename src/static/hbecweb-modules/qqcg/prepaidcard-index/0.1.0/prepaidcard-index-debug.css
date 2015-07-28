@@ -1,0 +1,548 @@
+/*! define consumer/prepaidcard-index/0.1.0/prepaidcard-index-debug.css */
+/*! block pafweblib/box/1.0.0/box-debug.css */
+/* pafweblib.box 样式模块 */
+
+.paf-box {
+    border: 1px solid #ededed;
+    zoom: 1;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.paf-box:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.paf-box-follow /*--使用在box和上面的box相连的情况下 --*/ {
+    border-top: none;
+}
+
+.paf-box-head {
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fafafa));
+    background: -moz-linear-gradient(top, #fcfcfc, #fafafa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#fafafa');
+    background: -o-linear-gradient(top, #fcfcfc, #fafafa);
+    background: linear-gradient(top, #fcfcfc, #fafafa);
+    zoom: 1;
+}
+
+.paf-box-forehead{
+    border-bottom: 0 none;
+}
+
+.paf-box-head .paf-box-head-title {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.paf-box-head .paf-box-head-more {
+    float: right;
+}
+
+.paf-box-head .paf-box-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+
+.paf-box-container {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.paf-box-content /* 可选，用于默认有内边距的box */ {
+    padding: 10px;
+}
+/*! endblock pafweblib/box/1.0.0/box-debug.css */
+
+/*! block consumer/dialog/1.0.0/dialog-debug.css */
+/* consumer-modules.dialog style module */
+
+/**
+ * 组件-弹出窗样式
+ * Author: xujia(2013-12-16 11:00) 新建文件
+ */
+.dialog-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 100;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.dialog-skeleton{
+    z-index: 102;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    min-height: 40px;
+    margin-left: -360px;
+    padding: 8px 30px;
+    color: #666;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.dialog-skeleton .btn-close{
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.dialog-skeleton .btn-close:hover{
+    opacity: 100;
+    filter: alpha(opacity=100);
+}
+.dialog-skeleton .box-loading{
+    width: 660px;
+    height: 120px;
+    background: url(/img/loading.gif) no-repeat center center;
+}
+
+li.moreCards{
+	text-align: right;
+	padding-right: 8px;
+	font-size: 14px;
+	width: 90px;
+	float: right;
+	cursor: pointer;
+}
+/*! endblock consumer/dialog/1.0.0/dialog-debug.css */
+
+/*! block pafweblib/btn/2.0.0/btn-debug.css */
+/* 默认样式 */
+.paf-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 11px 18px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 16px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-btn:hover,
+.paf-btn:focus,
+.paf-btn:active,
+.paf-btn.active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+}
+
+.paf-btn.disabled,
+.paf-btn[disabled],
+.paf-btn[disabled]:hover,
+.paf-btn[disabled]:active{
+    color: #818181;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+/* 可选项: 尺寸大小 */
+.paf-btn-large {
+    padding: 13px 21px;
+    font-size: 20px;
+}
+
+.paf-btn-small {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/* 颜色可选项: primary、info */
+.paf-btn-primary {
+    color: #ffffff;
+    border-color: #0087e3;
+    background-color: #0087e3;
+}
+
+.paf-btn-primary:hover,
+.paf-btn-primary:focus,
+.paf-btn-primary:active,
+.paf-btn-primary.active {
+    border-color: #0a77cf;
+    background-color: #0a77cf;
+}
+
+/* 主颜色背景下的按钮 */
+.paf-btn-bg-primary{
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #fff;
+}
+.paf-btn-bg-primary:hover,
+.paf-btn-bg-primary:focus,
+.paf-btn-bg-primary:active,
+.paf-btn-bg-primary.active {
+    color: #0087e3;
+    border-color: #fff;
+    background-color: #fff;
+}
+/*! endblock pafweblib/btn/2.0.0/btn-debug.css */
+
+/*! block pafweblib/form/1.0.0/form-debug.css */
+/*
+** form
+** @Author: xujia
+*/
+.paf-form {
+    font-size: 14px;
+    color: #333;
+}
+
+.paf-form fieldset {
+    border:0;
+}
+
+.paf-form legend {
+    display: none;
+}
+
+.paf-form .control-group {
+    margin-bottom: 10px;
+    *zoom: 1;
+}
+
+.paf-form .control-group:before,
+.paf-form .control-group:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+
+.paf-form .control-label {
+    float: left;
+    width: 160px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.paf-form .controls {
+    line-height: 30px;
+    margin-left: 170px;
+    color: #666;
+}
+
+.paf-form input{
+    padding: 6px 4px;
+    width: 230px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #bbb;
+    color: #666;
+}
+
+.paf-form textarea {
+    line-height: 16px;
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+    width: 230px;
+    height: 48px;
+    overflow: auto;
+    font-size: 14px;
+}
+.paf-form .control-group-checkbox .controls{
+    line-height: 1.4;
+    font-size: 12px;
+    cursor: default;
+}
+.paf-form .control-group-checkbox .checkbox{
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
+    margin-right: 4px;
+    padding: 0px;
+    border: 0 none;
+}
+
+.paf-form .control-group-btn .controls{
+    width: 238px;
+}
+
+.paf-form .control-group-btn button{
+    margin-right: 8px;
+}
+
+.paf-form input:active, .paf-form input:focus, .paf-form input:hover,
+.paf-form textarea:active, .paf-form textarea:focus, .paf-form textarea:hover{
+    border: 1px #aaa solid;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0
+}
+
+.paf-form input:disabled,.paf-form input.disabled,
+.paf-form textarea:disabled,.paf-form textarea.disabled{
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.paf-form :-moz-placeholder,.paf-form :-ms-input-placeholder,.paf-form :-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.paf-form .help-block{
+    margin: 0;
+    padding: 4px 0 0;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.paf-form .help-inline{
+    margin-left: 8px;
+    color: #aaa;
+}
+
+.paf-form .control-group-error input{
+    border: 1px solid #f00;
+}
+
+.paf-form .control-group-error .help-block{
+    color: #f00;
+}
+
+.paf-form .control-group-success .help-block{
+    color: #659324;
+}
+/*! endblock pafweblib/form/1.0.0/form-debug.css */
+
+/*! block consumer/prepaidcard-index/0.1.0/prepaidDialog-debug.css */
+/*
+*prepaidCard operator Dialog
+*author:wangjie
+*date：2014/04/01
+*/
+.dialog-skeleton {
+	background-color:#FAFAFA;
+	width:600px;
+	margin-left: -305px;
+	height:auto;
+    top: 25%;
+	text-align:left;
+	padding:0;
+	overflow:hidden;
+}
+div.addSuccessDiv{
+	background-color:#fff;	
+}
+table.addSuccessTable{margin:50px 130px;}
+table.addSuccessTable  th{
+	vertical-align:top;
+	padding-right:15px;
+}
+table.addSuccessTable  th span{
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(../../../../../img/prepaidCard/tipIcon.png) no-repeat;
+	margin-top:3px;
+}
+table.addSuccessTable td{text-align:left;}
+table.addSuccessTable td p.title{
+	font-size:18px;
+	text-shadow: 1px 0px 0px #a2b082;
+	line-height:30px;
+}
+table.addSuccessTable td p.content{
+	color:#747474;
+	text-shadow: 1px 0px 0px #adadad;
+	font-size:13px;
+	line-height:22px;
+	margin:5px auto;
+}
+table.addSuccessTable td.close{
+	height:60px;
+	vertical-align:bottom;
+}
+table.addSuccessTable td button{
+	width:151px;
+}
+table.activeCardTable{margin-top:75px;margin-left:150px;}
+table.activeCardTable th span{background: url(../../../../../img/prepaidCard/successIcon.png) no-repeat;}
+/*delete-prepaidCard*/
+h3.delPrepaidCardh3{
+  	border-bottom: 1px solid #D2D2D2;
+    height: 45px;
+    line-height: 45px;
+    margin: 5px 17px 0;
+    text-shadow: 1px 0 0 #D5D5D5;
+}
+div.delPrepaidCardDiv .controlTips{
+    padding: 15px 61px;
+}
+div.delPrepaidCardDiv .btn-group {
+    padding: 0 61px;
+}
+div.delPrepaidCardDiv input {
+    height: 20px;line-height: 20px;
+}
+
+div.delPrepaidCardDiv .btn-cancel{width:148px;}
+div.delPrepaidCardDiv .btn-confirm{width:148px;}
+.encrypted-password{visibility:visible;}
+div.delPrepaidCardDiv .errorTip{background: url(../../../../../img/failed16x16.png) no-repeat;padding-left:16px;color:red;height:16px;line-height:16px;margin-top:5px;margin-bottom:5px;display: block;float:left;width:70%;}
+span.errorCode {float: left;color: #FAFAFA;width:20%;}
+#delPrepaidCardForm {margin-bottom:20px;}
+/*! endblock consumer/prepaidcard-index/0.1.0/prepaidDialog-debug.css */
+
+/*! block consumer/prepaidcard-index/0.1.0/cards-debug.css */
+/*
+*prepaidCard base css
+*author:wangjie
+*date:2014/3/31
+*/
+.paf-box-head {
+    padding: 0 22px;
+    height: 43px;
+    line-height: 43px;
+}
+.green {color: #39b801;}
+.darkGreen {color: #648013;}
+.orange {color: #ff9138;}
+.brown {color: #693a2b;}
+.operator {color: #0099cc;}
+.w40 {width: 40px;}
+.marBot0 {margin-bottom: 0;}
+span.inputTip {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 5px;
+}
+h3.prepaidH3css1 {
+    background-color: #fcfcfc;
+    font-size: 16px;
+    color: #724637;
+    text-shadow: 1px 0 0 #ae958d;
+}
+div.addPrepaidCard {
+    border-bottom: solid 1px #ededed;
+    height: 52px;
+    clear: both;
+}
+div.addPrepaidCard div, div.addPrepaidCard a {
+    font-size: 14px;
+    float: left;
+}
+div.addPrepaidCard div {
+    height: 52px;
+    line-height: 52px;
+    margin-left: 20px;
+}
+div.cardsMoney b.bCss1 {
+    font-size: 16px;
+}
+div.addPrepaidCard a {
+    margin: 10px 20px;
+    display: block;
+    width: 121px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: solid 1px #dddddd;
+    background-color: #fcfcfc;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.addPrepaidCard a span {
+    color: #666666;
+    text-shadow: 0 1px 0 #fff;
+}
+div.prepaidCardsList {
+    text-align: center;
+}
+div.prepaidCardsList table, div.cardsTips {
+    width: 750px;
+    margin: 15px auto 0;
+}
+div.prepaidCardsList table th {
+    text-align: center;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #f2f2f2;
+    border: solid 1px #eeeeee;
+    color: #666666;
+    padding: 1px;
+}
+div.prepaidCardsList table td {
+    color: #666666;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+div.prepaidCardsList table td span {
+    font-size: 12px;
+}
+div.prepaidCardsList table tr:nth-child(even) td {
+    background-color: #fff;
+}
+div.prepaidCardsList table tr:nth-child(odd) td {
+    background-color: #f5f5f5;
+}
+td.noCardsTd {
+    padding-left: 19px;
+    text-align: left;
+    height: 36px;
+    border-bottom: solid 1px #f5f5f5;
+}
+div.cardsTips {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+div.cardsTips p {
+    line-height: 21px;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 2px;
+}
+a.delPrepaidCardA {
+    cursor: pointer;
+}
+/*! endblock consumer/prepaidcard-index/0.1.0/cards-debug.css */

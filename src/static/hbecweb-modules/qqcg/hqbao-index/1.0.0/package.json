@@ -1,0 +1,25 @@
+{
+    "family": "consumer",
+    "name": "hqbao-index",
+    "version": "1.0.0",
+    "description": "hqb index page",
+    "author": "zhangping",
+    "maintainers": [
+        "zhangping",
+        "xujia624@pingan.com.cn"
+    ],
+    "spm": {
+        "output": [
+            "hqbao-index.js",
+            "hqbao-index.css",
+            "has-open-hqb.png"
+        ],
+        "alias": {
+            "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css",
+            "/static/pinganfuweb-modules/arale/calendar/1.0.0/calendar.css": "arale/calendar/1.0.0/calendar.css",
+            "/static/pinganfuweb-modules/consumer/searchDateTab/1.0.0/searchDateTab.css": "consumer/searchDateTab/1.0.0/searchDateTab.css",
+            "$": "jquery/jquery/1.10.2/jquery",
+            "calendar": "arale/calendar/1.0.0/calendar"
+        }
+    }
+}

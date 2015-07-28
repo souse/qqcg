@@ -1,0 +1,14 @@
+{
+	"descript":"闪存宝测试项目构建依赖文件",
+	"author":"brucecham",
+	"version":"1.0.0",
+	"build":[
+		{
+			"path":"./src/WEB-INF",
+			"html":"/test/test.html",
+			"dependency":[
+				"hello world"
+			]
+		}
+	]
+}

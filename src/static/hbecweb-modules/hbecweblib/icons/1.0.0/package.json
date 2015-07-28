@@ -1,0 +1,35 @@
+{
+    "family": "pafweblib",
+    "name": "icons",
+    "version": "1.0.0",
+    "description": "icon sprite 图片及样式集合",
+    "homepage": "http://192.168.1.52/pinganfuweb-modules/pafweblib/icon/",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://192.168.0.220/pafweblib/icon.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "keywords": [],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "icons-bank-all.css",
+            "sprite-bank-all.png",
+            "icons-banklogo-all.css",
+            "sprite-banklogo-all.png",
+            "icons-form-all.css",
+            "sprite-form-all.png",
+            "icons-state-all.css",
+            "sprite-state-all.png"
+        ],
+        "alias": {},
+        "devAlias": {},
+        "engines": {}
+    }
+}

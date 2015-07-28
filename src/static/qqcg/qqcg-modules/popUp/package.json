@@ -1,0 +1,32 @@
+{
+  "family": "consumer",
+  "name": "popUp",
+  "version": "1.0.0",
+  "description": "进入调查问卷的小图标",
+  "homepage": "https://github.com/susie/icon",
+  "author": "wangjie230@pingan.com.cn",
+  "maintainers": [
+    "wangjie230@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/susie/icon.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "icon.js",
+      "icon.css",
+      "icons.png"
+    ],
+    "alias": {
+    	"$" : "jquery/jquery/1.10.2/jquery"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

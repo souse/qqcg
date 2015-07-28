@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "tabpanel",
+  "version": "1.0.0",
+  "description": "tab面板",
+  "homepage": "https://github.com/xujia/tabpanel",
+  "author": "xujia624@pingan.com.cn",
+  "maintainers": [
+    "xujia624@pingan.com.cn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xujia/tabpanel.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "tabpanel.css",
+      "safe.png"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

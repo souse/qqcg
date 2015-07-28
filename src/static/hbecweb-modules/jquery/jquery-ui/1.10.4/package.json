@@ -1,0 +1,30 @@
+{
+  "family": "jquery",
+  "name": "jquery-ui",
+  "version": "1.10.4",
+  "description": "Jquery UI.",
+  "homepage": "https://github.com/STR/jquery-ui",
+  "author": "xxx",
+  "maintainers": [
+    "xxx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/STR/jquery-ui.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "jquery-ui.js",
+      "jquery-ui.css",
+      "images/*.*"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,4 @@
+/*! define consumer/icons/1.0.0/icons-settingstate-debug.css */
+[class*=icon-settingstate]{display: inline-block; text-indent: -9999px; background: url(./icons-settingstate.png) no-repeat top left;}
+.icon-settingstate-on{background-position: 0 0px; width: 16px; height: 16px;}
+.icon-settingstate-off{background-position:0 -31px; width: 16px; height: 16px;}

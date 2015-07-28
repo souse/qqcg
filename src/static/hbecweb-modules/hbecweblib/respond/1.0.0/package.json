@@ -1,0 +1,29 @@
+{
+  "family": "pafweblib",
+  "name": "respond",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/susie/respond",
+  "author": "susie",
+  "maintainers": [
+    "susie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/susie/respond.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "respond.js",
+      "respond.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

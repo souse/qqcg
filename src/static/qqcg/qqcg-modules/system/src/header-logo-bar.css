@@ -1,0 +1,75 @@
+/*
+** header-logo-bar
+*/
+.header-logo-box{width: 100%;background-color: #FBFBFB;border-bottom: 1px solid #EEEEEE;}
+.header-logo-bar {
+    width: 990px;
+    margin: 0 auto;
+    padding: 35px 0 30px;
+    color: #333;
+}
+.header-logo-bar:after{
+    content: "\0020";
+    display: table;
+    height: 0;
+    clear: both;
+}
+.header-logo-bar .nav-list a, .header-logo-bar .nav-list a:active{
+    line-height: 40px;
+    margin-left: 60px;
+    color: #333;
+    text-decoration: none;
+}
+.header-logo-bar a:hover{
+    text-decoration: underline;
+    color: #0b77cf;
+}
+.header-logo-bar .nav-list{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.header-logo-bar .nav-list li{
+    display: inline-block;
+    font-size: 18px;
+}
+.header-logo-bar .nav-list .split{
+    border-right: 1px solid #ccc;
+}
+.header-logo-bar .nav-list .last{
+    padding-right: 0px;
+    margin-right: -5px;
+}
+.header-logo-bar .help-cell{
+    float: right;
+    color: #FF9138;
+}
+.header-logo-bar .help-cell h3{
+    margin-bottom: 4px;
+}
+.header-logo-bar h1{
+    float: left;
+}
+.header-logo-bar h1 a{
+    display: inline-block;
+    width: 306px;
+    height: 35px;
+    text-indent: -9999px;
+    background: url("./logo.png") no-repeat;
+    text-decoration: none;
+}
+.header-logo-bar .system{
+    display: inline-block;
+    height: 20px;
+    margin: 12px 0px 8px;
+    padding: 0 12px;
+    line-height: 20px;
+    font-size: 18px;
+    border-left: 1px solid #ccc;
+}
+.header-logo-bar .system.fn-hide{
+    display: none;
+}
+
+
+

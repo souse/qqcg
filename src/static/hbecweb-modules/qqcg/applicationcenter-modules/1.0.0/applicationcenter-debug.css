@@ -1,0 +1,73 @@
+/*! define consumer/applicationcenter-modules/1.0.0/applicationcenter-debug.css */
+/*! block pafweblib/nav-stacked/1.0.0/nav-stacked-debug.css */
+/* pafweblib.nav-stacked style module */
+.nav-stacked{
+    width: auto;
+    margin: 0;
+    padding-left: 0;
+    line-height: 1;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    font-size: 18px;
+}
+
+.nav-stacked-title, .nav-stacked-item{
+    margin: 0px;
+    display: block;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.nav-stacked-title .icon-gt{
+    font-style: normal;
+    float: right;
+    margin-right: 20px;
+}
+
+/* 一级菜单 */
+.nav-stacked-title{
+    color: #333;
+}
+.nav-stacked-title a, .nav-stacked-title span{
+    display: block;
+    padding: 12px 0 10px 20px;
+    line-height: 1;
+    color: #333;
+    background-color: #eee;
+}
+.nav-stacked-title a:hover, .nav-stacked-title.active span, .nav-stacked-title.active a{
+    background-color: #0087e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 二级菜单 */
+.nav-stacked-item{
+    padding-top: 1px;
+    color: #818181;
+}
+.nav-stacked-item a,.nav-stacked-item span{
+    display: block;
+    padding: 11px 0 10px 40px;
+    line-height: 1;
+    color: #818181;
+    background-color: #f5f5f5;
+}
+.nav-stacked-item a:hover, .nav-stacked-item.active a{
+    color: #0087e3;
+}
+/*! endblock pafweblib/nav-stacked/1.0.0/nav-stacked-debug.css */
+
+/*! block consumer/applicationcenter-modules/1.0.0/erweima-debug.css */
+@charset "utf-8";
+
+.erweimaShow{width:auto; border: 1px solid #ededed; overflow: auto; position: relative; margin-top: 10px;}
+.erweimaShow img.erweima-png{width: 50px; height: 50px; float: left; border-right: 1px solid #ededed;}
+.erweimaShow div.txt{position: relative; float: left; margin-top: 2px; z-index: -1;}
+.erweimaShow h2{height: 20px; line-height: 20px; font-size: 12px; font-weight: bold; color: #666;}
+.erweimaShow span{color: #aaa; font-size: 12px;}
+.erweimaShow .icons{float: right; right: 0px; top: 0px; width: 15px; height:15px; cursor: pointer;
+	background: url('/img/cha.png') no-repeat; border-left: 1px solid #ededed; border-bottom: 1px solid #ededed;}
+.erweimaShow.hidden{display: none;}
+/*! endblock consumer/applicationcenter-modules/1.0.0/erweima-debug.css */

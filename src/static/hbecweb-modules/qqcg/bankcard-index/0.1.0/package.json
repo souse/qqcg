@@ -1,0 +1,27 @@
+{
+  "family": "consumer",
+  "name": "bankcard-index",
+  "version": "0.1.0",
+  "description": "This is bankcard index modules",
+  "homepage": "https://github.com/pumpkin/index",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan",
+    "rocketxj@gmail.com"
+  ],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "bankcard-index.css",
+      "addfastpay.png"
+    ],
+    "alias": {
+        "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-state-all.css":"pafweblib/icons/1.0.0/icons-state-all.css",
+        "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-banklogo-all.css":"pafweblib/icons/1.0.0/icons-banklogo-all.css",
+        "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css",
+        "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":  "pafweblib/btn/2.0.0/btn.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

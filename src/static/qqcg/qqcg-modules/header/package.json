@@ -1,0 +1,21 @@
+{
+    "family": "consumer",
+    "name": "header",
+    "version": "1.0.0",
+    "description": "C 门户默认头",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "keywords": [],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "header.css",
+            "logo-302-40.png"
+        ],
+        "alias": {},
+        "devAlias": {},
+        "engines": {}
+    }
+}

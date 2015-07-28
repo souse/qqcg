@@ -1,0 +1,77 @@
+/*! define consumer/prepaidcard-index/0.1.0/prepaidDialog-debug.css */
+/*
+*prepaidCard operator Dialog
+*author:wangjie
+*date：2014/04/01
+*/
+.dialog-skeleton {
+	background-color:#FAFAFA;
+	width:600px;
+	margin-left: -305px;
+	height:auto;
+    top: 25%;
+	text-align:left;
+	padding:0;
+	overflow:hidden;
+}
+div.addSuccessDiv{
+	background-color:#fff;	
+}
+table.addSuccessTable{margin:50px 130px;}
+table.addSuccessTable  th{
+	vertical-align:top;
+	padding-right:15px;
+}
+table.addSuccessTable  th span{
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(../../../../../img/prepaidCard/tipIcon.png) no-repeat;
+	margin-top:3px;
+}
+table.addSuccessTable td{text-align:left;}
+table.addSuccessTable td p.title{
+	font-size:18px;
+	text-shadow: 1px 0px 0px #a2b082;
+	line-height:30px;
+}
+table.addSuccessTable td p.content{
+	color:#747474;
+	text-shadow: 1px 0px 0px #adadad;
+	font-size:13px;
+	line-height:22px;
+	margin:5px auto;
+}
+table.addSuccessTable td.close{
+	height:60px;
+	vertical-align:bottom;
+}
+table.addSuccessTable td button{
+	width:151px;
+}
+table.activeCardTable{margin-top:75px;margin-left:150px;}
+table.activeCardTable th span{background: url(../../../../../img/prepaidCard/successIcon.png) no-repeat;}
+/*delete-prepaidCard*/
+h3.delPrepaidCardh3{
+  	border-bottom: 1px solid #D2D2D2;
+    height: 45px;
+    line-height: 45px;
+    margin: 5px 17px 0;
+    text-shadow: 1px 0 0 #D5D5D5;
+}
+div.delPrepaidCardDiv .controlTips{
+    padding: 15px 61px;
+}
+div.delPrepaidCardDiv .btn-group {
+    padding: 0 61px;
+}
+div.delPrepaidCardDiv input {
+    height: 20px;line-height: 20px;
+}
+
+div.delPrepaidCardDiv .btn-cancel{width:148px;}
+div.delPrepaidCardDiv .btn-confirm{width:148px;}
+.encrypted-password{visibility:visible;}
+div.delPrepaidCardDiv .errorTip{background: url(../../../../../img/failed16x16.png) no-repeat;padding-left:16px;color:red;height:16px;line-height:16px;margin-top:5px;margin-bottom:5px;display: block;float:left;width:70%;}
+span.errorCode {float: left;color: #FAFAFA;width:20%;}
+#delPrepaidCardForm {margin-bottom:20px;}

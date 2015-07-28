@@ -1,0 +1,30 @@
+{
+  "family": "cashier",
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/pumpkin/helper",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pumpkin/helper.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "helper.js"
+    ],
+    "alias": {
+
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

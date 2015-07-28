@@ -1,0 +1,341 @@
+/*! define pafweblib/grid/2.0.0/grid-debug.css */
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.paf-container {
+    margin: 30px auto 30px;
+    width: 1000px;
+}
+
+.paf-row:before,
+.paf-row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.paf-row:after {
+    clear: both;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.paf-row [class*="grid-col-"]{
+    display:inline;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.paf-row [class*="grid-col-"]:after{
+    display: table;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+
+.paf-row .grid-ml-fixed {
+    margin-left: 0;
+}
+.paf-row .grid-mr-fixed {
+    margin-right: 0;
+}
+
+/* Grid >> 25 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.paf-row .grid-col-1 {
+    width:30px;
+}
+
+.paf-row .grid-col-2 {
+    width:70px;
+}
+
+.paf-row .grid-col-3 {
+    width:110px;
+}
+
+.paf-row .grid-col-4 {
+    width:150px;
+}
+
+.paf-row .grid-col-5 {
+    width:190px;
+}
+
+.paf-row .grid-col-6 {
+    width:230px;
+}
+
+.paf-row .grid-col-7 {
+    width:270px;
+}
+
+.paf-row .grid-col-8 {
+    width:310px;
+}
+
+.paf-row .grid-col-9 {
+    width:350px;
+}
+
+.paf-row .grid-col-10 {
+    width:390px;
+}
+
+.paf-row .grid-col-11 {
+    width:430px;
+}
+
+.paf-row .grid-col-12 {
+    width:470px;
+}
+
+.paf-row .grid-col-13 {
+    width:510px;
+}
+
+.paf-row .grid-col-14 {
+    width:550px;
+}
+
+.paf-row .grid-col-15 {
+    width:590px;
+}
+
+.paf-row .grid-col-16 {
+    width:630px;
+}
+
+.paf-row .grid-col-17 {
+    width:670px;
+}
+
+.paf-row .grid-col-18 {
+    width:710px;
+}
+
+.paf-row .grid-col-19 {
+    width:750px;
+}
+
+.paf-row .grid-col-20 {
+    width:790px;
+}
+
+.paf-row .grid-col-21 {
+    width:830px;
+}
+
+.paf-row .grid-col-22 {
+    width:870px;
+}
+
+.paf-row .grid-col-23 {
+    width:910px;
+}
+
+.paf-row .grid-col-24 {
+    width:950px;
+}
+
+.paf-row .grid-col-25 {
+    width:990px;
+}
+
+/* Prefix Extra Space >> 25 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.paf-row .grid-prefix-1 {
+    padding-left:40px;
+}
+
+.paf-row .grid-prefix-2 {
+    padding-left:80px;
+}
+
+.paf-row .grid-prefix-3 {
+    padding-left:120px;
+}
+
+.paf-row .grid-prefix-4 {
+    padding-left:160px;
+}
+
+.paf-row .grid-prefix-5 {
+    padding-left:200px;
+}
+
+.paf-row .grid-prefix-6 {
+    padding-left:240px;
+}
+
+.paf-row .grid-prefix-7 {
+    padding-left:280px;
+}
+
+.paf-row .grid-prefix-8 {
+    padding-left:320px;
+}
+
+.paf-row .grid-prefix-9 {
+    padding-left:360px;
+}
+
+.paf-row .grid-prefix-10 {
+    padding-left:400px;
+}
+
+.paf-row .grid-prefix-11 {
+    padding-left:440px;
+}
+
+.paf-row .grid-prefix-12 {
+    padding-left:480px;
+}
+
+.paf-row .grid-prefix-13 {
+    padding-left:520px;
+}
+
+.paf-row .grid-prefix-14 {
+    padding-left:560px;
+}
+
+.paf-row .grid-prefix-15 {
+    padding-left:600px;
+}
+
+.paf-row .grid-prefix-16 {
+    padding-left:640px;
+}
+
+.paf-row .grid-prefix-17 {
+    padding-left:680px;
+}
+
+.paf-row .grid-prefix-18 {
+    padding-left:720px;
+}
+
+.paf-row .grid-prefix-19 {
+    padding-left:760px;
+}
+
+.paf-row .grid-prefix-20 {
+    padding-left:800px;
+}
+
+.paf-row .grid-prefix-21 {
+    padding-left:840px;
+}
+
+.paf-row .grid-prefix-22 {
+    padding-left:880px;
+}
+
+.paf-row .grid-prefix-23 {
+    padding-left:920px;
+}
+
+.paf-row .grid-prefix-24 {
+    padding-left:960px;
+}
+
+/* Suffix Extra Space >> 25 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.paf-row .grid-suffix-1 {
+    padding-right:40px;
+}
+
+.paf-row .grid-suffix-2 {
+    padding-right:80px;
+}
+
+.paf-row .grid-suffix-3 {
+    padding-right:120px;
+}
+
+.paf-row .grid-suffix-4 {
+    padding-right:160px;
+}
+
+.paf-row .grid-suffix-5 {
+    padding-right:200px;
+}
+
+.paf-row .grid-suffix-6 {
+    padding-right:240px;
+}
+
+.paf-row .grid-suffix-7 {
+    padding-right:280px;
+}
+
+.paf-row .grid-suffix-8 {
+    padding-right:320px;
+}
+
+.paf-row .grid-suffix-9 {
+    padding-right:360px;
+}
+
+.paf-row .grid-suffix-10 {
+    padding-right:400px;
+}
+
+.paf-row .grid-suffix-11 {
+    padding-right:440px;
+}
+
+.paf-row .grid-suffix-12 {
+    padding-right:480px;
+}
+
+.paf-row .grid-suffix-13 {
+    padding-right:520px;
+}
+
+.paf-row .grid-suffix-14 {
+    padding-right:560px;
+}
+
+.paf-row .grid-suffix-15 {
+    padding-right:600px;
+}
+
+.paf-row .grid-suffix-16 {
+    padding-right:640px;
+}
+
+.paf-row .grid-suffix-17 {
+    padding-right:680px;
+}
+
+.paf-row .grid-suffix-18 {
+    padding-right:720px;
+}
+
+.paf-row .grid-suffix-19 {
+    padding-right:760px;
+}
+
+.paf-row .grid-suffix-20 {
+    padding-right:800px;
+}
+
+.paf-row .grid-suffix-21 {
+    padding-right:840px;
+}
+
+.paf-row .grid-suffix-22 {
+    padding-right:880px;
+}
+
+.paf-row .grid-suffix-23 {
+    padding-right:920px;
+}
+
+.paf-row .grid-suffix-24 {
+    padding-right:960px;
+}

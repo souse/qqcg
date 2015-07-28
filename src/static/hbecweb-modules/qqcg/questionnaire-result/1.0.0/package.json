@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "questionnaire-result",
+  "version": "1.0.0",
+  "description": "questionnaire result",
+  "homepage": "https://github.com/susie/result",
+  "author": "susie",
+  "maintainers": [
+    "susie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/susie/result.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "result.js",
+      "result.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

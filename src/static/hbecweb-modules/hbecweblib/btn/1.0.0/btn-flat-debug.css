@@ -1,0 +1,115 @@
+/*! define pafweblib/btn/1.0.0/btn-flat-debug.css */
+/* pafweblib button style module*/
+
+/* 默认样式 */
+.paf-btn-flat {
+    display: inline-block;
+    *display: inline;
+    padding: 9px 17px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0087e3;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #55afec;
+    font-weight: normal;
+    *zoom: 1;
+}
+
+.paf-btn-flat:hover,
+.paf-btn-flat:focus,
+.paf-btn-flat:active,
+.paf-btn-flat.active {
+    border: 2px solid #0087e3;
+    padding: 8px 16px;
+}
+
+.paf-btn-flat.disabled,
+.paf-btn-flat[disabled] {
+    cursor: default;
+    background-image: none;
+    color: #ccc;
+    border: 1px solid #c7c7c7;
+    padding: 9px 17px;
+}
+
+.paf-btn-flat:first-child {
+    *margin-left: 0;
+}
+
+.paf-btn-flat .icon-right{
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    margin-right: 12px;
+    background: url("/static/pinganfuweb-modules/pafweblib/btn/1.0.0/right.png") no-repeat 0 0;
+    text-indent: -999px;
+}
+
+/* 可选项: 圆角 */
+.paf-btn-flat.paf-btn-flat-radius{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* 默认样式-白色背景 */
+.paf-btn-white-flat {
+    display: inline-block;
+    *display: inline;
+    padding: 9px 17px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #0087e3;
+    border: 1px solid #fff;
+    font-weight: normal;
+    *zoom: 1;
+}
+
+.paf-btn-white-flat:hover,
+.paf-btn-white-flat:focus,
+.paf-btn-white-flat:active,
+.paf-btn-white-flat.active {
+    border: 2px solid #fff;
+    background: #007ed4;
+    padding: 8px 16px;
+}
+
+.paf-btn-white-flat.disabled,
+.paf-btn-white-flat[disabled] {
+    cursor: default;
+    background-image: none;
+    color: #ccc;
+    border: 1px solid #c7c7c7;
+    padding: 9px 17px;
+}
+
+.paf-btn-white-flat:first-child {
+    *margin-left: 0;
+}
+
+.paf-btn-white-flat .icon-right{
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    margin-right: 12px;
+    background: url("/static/pinganfuweb-modules/pafweblib/btn/1.0.0/white-right.png") no-repeat 0 0;
+    text-indent: -999px;
+}
+
+/* 可选项: 圆角 */
+.paf-btn-white-flat.paf-btn-flat-radius{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}

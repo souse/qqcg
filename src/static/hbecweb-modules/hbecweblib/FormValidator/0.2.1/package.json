@@ -1,0 +1,32 @@
+{
+  "family": "pafweblib",
+  "name": "FormValidator",
+  "version": "0.2.1",
+  "description": "pafweblib FormValidator plugin.",
+  "homepage": "http://192.168.0.220/pafweblib/FormValidator",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "http",
+    "url": "http://192.168.0.220/pafweblib/FormValidator.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": ["pafweblib/FormValidator"],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "FormValidator.js",
+      "idcard.js"
+    ],
+      "alias": {
+          "form":"pafweblib/form/1.0.0/form.css",
+          "btn":"pafweblib/btn/1.0.0/btn.css"
+      },
+    "devAlias": {},
+    "engines": {}
+  }
+}

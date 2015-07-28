@@ -1,0 +1,16 @@
+{   "message": "",
+    "data": {
+        "bankCode": "PAB",
+        "bankName":"浦发银行",
+        "cardTypeCode":"D",
+        "cardTypeName": "信用卡",
+        "dcCombine": false,
+        "signTransNo": "0000000",
+        "version" : "2"
+    },
+    "code": "000000"
+}
+
+
+
+

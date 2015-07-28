@@ -1,0 +1,30 @@
+{
+  "family": "pafweblib",
+  "name": "Validator",
+  "version": "0.1.0",
+  "description": "pafweblib validator plugin",
+  "homepage": "https://github.com/pumpkin/Validator",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pumpkin/Validator.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "Validator.js"
+    ],
+    "alias": {
+    },
+    "devAlias": {
+    },
+    "engines": {}
+  }
+}

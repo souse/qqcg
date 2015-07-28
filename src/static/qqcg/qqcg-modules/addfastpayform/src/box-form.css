@@ -1,0 +1,81 @@
+/*
+ * @Description: 绑定快捷银行卡表单区块样式
+ * @Author: xujia(2014-06-25)
+ */
+.box-form{
+    position: relative;
+}
+
+.control-group-sct{
+    display: none;
+}
+.control-group-sct .control{
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.control-group-sct .control label{
+    padding-right: 12px;
+}
+
+.box-form .resendhint{
+    display: block;
+    margin-left: 0;
+    color: #999;
+}
+.box-form .agreementLabel input{
+    position: relative;
+    top: 6px;
+}
+
+.box-form .control-group-period .split{
+    margin: 0 4px;
+}
+
+.box-form select{
+    width: 90px;
+}
+
+
+.hide-txt .help-inline-supportcard{
+    display: none;
+}
+
+/*借贷一体卡相关样式*/
+.dcCombine .control-group-sct{
+    display: block;
+}
+
+/*信用卡相关样式*/
+.symbol-credit{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 318px;
+    height: 242px;
+    padding: 12px;
+    border: 1px dotted #ddd;
+    text-indent: -9999px;
+    background: #fcfcfc url(./bg-credit.png) no-repeat 12px 12px;
+}
+
+.symbol-credit,
+.control-group-period,
+.control-group-cvv2{
+    display: none;
+}
+
+.kind-credit .symbol-credit,
+.kind-credit .control-group-period,
+.kind-credit .control-group-cvv2{
+    display: block;
+}
+
+/*上海银行协议样式*/
+.protocol-boc{
+    display: none;
+}
+.BOS .protocol-boc{
+    display: inline;
+}
+

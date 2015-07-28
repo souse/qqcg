@@ -1,0 +1,24 @@
+{
+    "family": "consumer",
+    "name": "bankcard-openfastpay",
+    "version": "1.0.0",
+    "description": "开通快捷银行卡",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "bankcard-openfastpay.css",
+            "bankcard-openfastpay.js"
+        ],
+        "alias": {
+            "/static/pinganfuweb-modules/consumer/addfastpayForm/1.0.0/addfastpayForm.css": "consumer/addfastpayForm/1.0.0/addfastpayForm.css",
+            "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-bank-all.css":"pafweblib/icons/1.0.0/icons-bank-all.css",
+            "$": "jquery/jquery/1.10.2/jquery",
+            "FormValidator": "pafweblib/FormValidator/0.2.1/FormValidator",
+            "sendotp": "consumer/sendotp/1.0.0/sendotp"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "family": "consumer",
+  "name": "applicationcenter-payment",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "payment.js",
+      "payment.css"
+    ],
+    "alias": {
+    	"$": "jquery/jquery/1.10.2/jquery",
+    	"$-debug": "jquery/jquery/1.10.2/jquery-debug",
+		"FormValidator": "pafweblib/FormValidator/0.2.1/FormValidator",
+		"number": "pafweblib/temporary/1.0.0/numeral",
+    	"/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css":"pafweblib/box/1.0.0/box.css",
+    	"/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css",
+    	"/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css":"pafweblib/notify/1.0.0/notify.css",
+    	"/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css":"pafweblib/form/1.0.0/form.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

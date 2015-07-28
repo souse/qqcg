@@ -1,0 +1,31 @@
+{
+  "family": "consumer",
+  "name": "safecenter-modules",
+  "version": "1.0.0",
+  "description": "账户安全首页",
+  "homepage": "https://github.com/brucecham/index",
+  "author": "brucecham",
+  "maintainers": [
+    "brucecham"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brucecham/index.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "safecenter.css"
+    ],
+    "alias": {
+        "/static/pinganfuweb-modules/pafweblib/nav-stacked/1.0.0/nav-stacked.css":"pafweblib/nav-stacked/1.0.0/nav-stacked.css",
+        "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "xqbao-modules",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "xqbao-modules.js",
+      "xqbao-modules.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

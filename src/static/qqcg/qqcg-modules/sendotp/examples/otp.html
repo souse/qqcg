@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Examples</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="../src/sendotp.css" rel="stylesheet">
+	<style type="text/css">
+		.otp-demo{
+			border: 1px solid #ededed;
+			margin-bottom: 50px;
+		}
+	</style>
+</head>
+<body>
+    <!-- <div class="otp-demo">
+    	<input type="text" id="mobileNum"> freemarker demo 在页面上找
+	    <input id="otpValue" maxlength="6">
+		<button type="button" class="otpSend btn btn-white-bordered countdown" data-mobile="#bankMobile" data-id="#otp\.id" id="otpSend" data-otp-path="/otp/" data-resend="重新发送">免费获取</button>
+    </div> -->
+    <div class="otp-demo">
+    	<input type="text" id="otp.id"><!--  freemarker demo 在页面上找-->
+	    <input id="otpValue" maxlength="6">
+		<button type="button" class="otpSend btn btn-white-bordered countdown" data-mobile="#bankMobile" data-id="#otp\.id" id="otp-send" data-otp-path="/otp/" data-resend="重新发送">免费获取</button>
+    </div>                        
+	
+	
+	<script type="text/javascript" src="/static/pinganfuweb-modules/pafweblib/global/0.2.0/js/global.js"></script>
+	<script type="text/javascript">
+		seajs.config({
+			alias: {
+				"$" : "/static/pinganfuweb-modules/jquery/jquery/1.10.2/jquery-debug",
+				"otp" : "../src/sendotp"
+			}
+		});
+		seajs.use('otp', function(SendOTP){
+			//var options = {};
+			//var send = SendOTP.create(options);
+			//SendOTP.prototype.create(options);
+			var options1 = {
+					$otpBtn : $('#otp-send'), //传入的获取验证码按钮
+					$otpValue : $('#otp-value'), //输入验证码框
+					sendData : {"mobile" : 12312312312}//ajax 请求传入的数据， json格式
+			};
+            SendOTP.create(options1);
+		});
+	</script>
+</body>
+</html>

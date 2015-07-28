@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "fastpaydialog",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/zhangping/fastpaydialog",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/fastpaydialog.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "fastpaydialog.js",
+      "fastpaydialog.css"
+    ],
+    "alias": {"dialog":"consumer/dialog/1.0.0/dialog"},
+    "devAlias": {},
+    "engines": {}
+  }
+}

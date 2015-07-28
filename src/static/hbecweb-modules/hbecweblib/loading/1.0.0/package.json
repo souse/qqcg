@@ -1,0 +1,32 @@
+{
+  "family": "pafweblib",
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "loading 加载控件",
+  "homepage": "http://192.168.0.220/pafweblib/loading",
+  "author": "yechunan",
+  "maintainers": [
+    "yechunan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/loading.git"
+  },
+  "bugs": {
+    "url": "http://192.168.0.220/pafweblib/loading/issues"
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "loading.css",
+      "loading.js",
+      "loading.gif"
+    ],
+    "alias": {
+        "$": "jquery/jquery/1.10.2/jquery"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

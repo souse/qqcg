@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>测试项目页面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!--lib级-->
+    <link rel="stylesheet" type="text/css" href="/static/hbecweb-modules/hbecweblib/global/0.2.0/css/bootstrap.min.css">
+    <!--业务级-->
+    <!-- <link rel="stylesheet" type="text/css" href="/static/qqcg/build_o/src/index.css"> -->
+    <link rel="stylesheet" type="text/css" href="/static/hbecweb-modules/qqcg/build_o/0.0.2/index.css">
+    <!-- 引用 html5shim 文件 -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/hbecweb-modules/hbecweblib/global/0.2.0/js/html5Shim.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<!-- 页面头部 -->
+	<header class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page-header">
+					<h1>钱钱炒股 <small>Subtext for header</small></h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- body -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-3 col-xs-12">
+				<div class="alert alert-success" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  Enter a valid email address
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-3 col-xs-12">
+				<div class="alert alert-danger" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  Enter a valid email address
+				</div>
+			</div>
+  			<div class="col-md-6 col-sm-3 col-xs-12">
+  				<div class="alert alert-danger" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  Enter a valid email address
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-3 col-xs-12">
+				<div class="alert alert-success" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  Enter a valid email address
+				</div>
+  			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 a">hello world</div>
+				<div class="col-md-4 b">hello world</div>
+				<div class="col-md-4 c">hello world</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="/static/hbecweb-modules/hbecweblib/global/0.2.0/js/global.js"></script>
+<script type="text/javascript">
+if(location.hostname !== "localhost"){
+	seajs.config({
+		base: '/static/',
+	    alias: {
+	        "index":"qqcg/build_o/src/index"
+	    }
+	});
+}else{
+	seajs.config({
+		base: '/static/hbecweb-modules/',
+	    alias: {
+	        "index":"qqcg/build_o/0.0.2/index"
+	    }
+	});
+}
+seajs.use("index",function(a){a.init()});
+</script>
+</html>

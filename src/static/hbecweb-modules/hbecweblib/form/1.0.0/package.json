@@ -1,0 +1,36 @@
+{
+    "family": "pafweblib",
+    "name": "form",
+    "version": "1.0.0",
+    "description": "表单模块",
+    "homepage": "http://192.168.1.52/pinganfuweb-modules/pafweblib/form/",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://192.168.0.220/pafweblib/form.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "keywords": [],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "form.css",
+            "form-flat.css",
+            "otp.css",
+            "otp.js",
+            "captcha.css",
+            "select.css",
+            "select.js"
+        ],
+        "alias": {
+            "$":"$"
+        },
+        "devAlias": {},
+        "engines": {}
+    }
+}

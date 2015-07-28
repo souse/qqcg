@@ -1,0 +1,95 @@
+/*! define pafweblib/pagination/1.0.0/pagination-debug.css */
+/* paf.pagination style module */
+.paf-pagination, .paf-pagination input{
+    zoom: 1;
+    color:#818181;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.paf-pagination:after {
+    clear: both;
+    content: "\0020";
+    display: table;
+    height: 0;
+}
+
+/*上一页 下一页 按钮*/
+.paf-pagination-btn {
+    float: left;
+    display: inline-block;
+    *display: inline;
+    padding: 7px 12px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 14px;
+    line-height: 1;
+    color: #818181;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.paf-pagination-btn:hover,
+.paf-pagination-btn:focus,
+.paf-pagination-btn:active,
+.paf-pagination-btn.paf-pagination-active {
+    color: #fff;
+    background-color: #0087e3;
+    border-color: #0087e3;
+    text-decoration:none;
+}
+
+.paf-pagination-btn.disabled,
+.paf-pagination-btn[disabled],
+.paf-pagination-btn[disabled]:hover,
+.paf-pagination-btn[disabled]:active{
+    color: #818181;
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: default;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+.paf-pagination-prev {
+    margin: 0 4px 0 0;
+}
+
+.paf-pagination-next {
+    margin: 0 4px 0 4px;
+}
+
+/*  */
+a.paf-pagination-item,
+span.paf-pagination-ellipsis,
+span.paf-pagination-info,
+span.paf-pagination-which{
+    float: left;
+    margin:0 4px;
+    text-decoration:none;
+    color:#818181;
+    vertical-align: middle;
+    height:30px;
+    line-height:30px;
+}
+
+a.paf-pagination-item {
+    background-color:#f3f3f3;
+    font-weight:bold;
+    padding:0 12px;
+    border:none;
+}
+
+a.paf-pagination-item:hover, a.paf-pagination-active{
+    color:#fff;
+    background:#0087e3;
+}

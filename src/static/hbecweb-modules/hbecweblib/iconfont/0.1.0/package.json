@@ -1,0 +1,32 @@
+{
+  "family": "pafweblib",
+  "name": "iconfont",
+  "version": "0.1.0",
+  "description": "常见的icon字体库",
+  "homepage": "",
+  "author": "",
+  "maintainers": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.220/pafweblib/fonticon.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "iconfont.css",
+        "iconfont.eot",
+        "iconfont.svg",
+        "iconfont.ttf",
+        "iconfont.woff"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

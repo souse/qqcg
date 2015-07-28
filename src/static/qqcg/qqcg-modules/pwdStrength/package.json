@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "pwdStrength",
+  "version": "1.0.0",
+  "description": "密码强度bar",
+  "homepage": "https://github.com/sunlight65/pwdStrength",
+  "author": "trsun",
+  "maintainers": [
+    "trsun"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sunlight65/pwdStrength.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "pwdStrength.css"
+    ],
+    "alias": {
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "family": "consumer",
+  "name": "system",
+  "version": "0.2.0",
+  "description": "C门户系统模块",
+  "homepage": "https://github.com/brucecham/system",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "system.css",
+      "certif.png",
+      "certif01.jpg",
+      "certif02.jpg",
+      "headPic.png",
+      "logo.png",
+      "headerBarSprite.png"
+    ],
+    "alias": {
+        "/static/pinganfuweb-modules/pafweblib/grid/2.0.0/grid.css":"pafweblib/grid/2.0.0/grid.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

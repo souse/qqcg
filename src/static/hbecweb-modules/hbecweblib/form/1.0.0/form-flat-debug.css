@@ -1,0 +1,139 @@
+/*! define pafweblib/form/1.0.0/form-flat-debug.css */
+/*
+** form
+** @Author: xujia
+*/
+.paf-form-flat {
+    font-size: 14px;
+    color: #333;
+}
+
+.paf-form-flat fieldset {
+    border:0;
+}
+
+.paf-form-flat legend {
+    display: none;
+}
+
+.paf-form-flat .control-group {
+    margin-bottom: 10px;
+    *zoom: 1;
+}
+
+.paf-form-flat .control-group:before,
+.paf-form-flat .control-group:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.paf-form-flat .control-label {
+    float: left;
+    width: 160px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.paf-form-flat .controls {
+    line-height: 30px;
+    margin-left: 170px;
+    color: #666;
+}
+
+.paf-form-flat input, .paf-form-flat textarea{
+    padding: 6px 4px;
+    width: 230px;
+    height: 18px;
+    line-height: 18px;
+    color: #666;
+    font-size: 14px;
+}
+
+.paf-form-flat input{
+    border: 0 none;
+    border-bottom: 1px solid #0087e3;
+}
+
+.paf-form-flat textarea {
+    border: 1px solid #0087e3;
+    padding: 2px 4px;
+    width: 230px;
+    height: 48px;
+    overflow: auto;
+}
+
+.paf-form-flat input:active, .paf-form-flat input:focus,.paf-form-flat input:hover,
+.paf-form-flat textarea:active, .paf-form-flat textarea:focus,.paf-form-flat textarea:hover{
+    border: 0 none;
+    border-bottom: 1px solid #007ed4;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0
+}
+.paf-form-flat textarea:active, .paf-form-flat textarea:focus,.paf-form-flat textarea:hover{
+    border: 1px solid #007ed4;
+}
+
+.paf-form-flat input:disabled,.paf-form-flat input.disabled{
+    border-bottom: 1px solid #aeaeae;
+    color: #aaa;
+}
+.paf-form-flat textarea:disabled,.paf-form-flat textarea.disabled{
+    border: 1px solid #aeaeae;
+    color: #aaa;
+}
+
+.paf-form-flat :-moz-placeholder,.paf-form-flat :-ms-input-placeholder,.paf-form-flat :-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.paf-form-flat .control-group-checkbox .control{
+    line-height: 1.4;
+    font-size: 12px;
+    cursor: default;
+}
+
+.paf-form-flat .control-group-checkbox .checkbox{
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
+    margin-right: 4px;
+    padding: 0px;
+    border: 0 none;
+}
+
+.paf-form-flat .control-group-btn .control{
+    width: 238px;
+}
+
+.paf-form-flat .control-group-btn button{
+    margin-right: 8px;
+}
+
+.paf-form-flat .help-block{
+    margin: 0;
+    padding: 4px 0 0;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.paf-form-flat .help-inline{
+    margin-left: 8px;
+    color: #aaa;
+}
+
+.paf-form-flat .control-group-error input{
+    border-bottom: 1px solid #f00;
+}
+.paf-form-flat .control-group-error textarea{
+    border: 1px solid #f00;
+}
+
+.paf-form-flat .control-group-error .help-block{
+    color: #f00;
+}
+
+.paf-form-flat .control-group-success .help-block{
+    color: #659324;
+}

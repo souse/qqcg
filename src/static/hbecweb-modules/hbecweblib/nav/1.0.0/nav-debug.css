@@ -1,0 +1,125 @@
+/*! define pafweblib/nav/1.0.0/nav-debug.css */
+.paf-nav {
+    position: relative;
+}
+
+.paf-nav a {
+    text-decoration: none;
+}
+
+.paf-nav a:hover {
+    text-decoration: none
+}
+
+.paf-nav ul, .paf-nav li {
+    list-style-type: none
+}
+
+.paf-nav-main {
+    zoom: 1;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius:2px 2px 0 0;
+    border-radius:2px 2px 0 0;
+    background:#F5F5F5;
+    background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -ms-linear-gradient(#F5F5F5, #F1F1F1);
+    background: -o-linear-gradient(#F5F5F5, #F1F1F1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#F1F1F1)
+}
+
+.paf-nav-main:before, .paf-nav-main:after {
+    content: "\0020";
+    display: table;
+    clear: both;
+    height: 0;
+}
+
+.paf-nav-item {
+    float: left;
+}
+
+.paf-nav-item a {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    height: 40px;
+    padding: 0 16px;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+}
+
+.paf-nav-item a:hover {
+    background: #ffa358;
+    color: #fff;
+}
+
+.paf-nav-item-current a, .paf-nav-item-current a:hover {
+    background-color: #FF9138;
+    color: #fff;
+}
+
+.paf-nav-submain {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    margin: 0;
+    padding: 0
+}
+
+.paf-nav-subitem {
+    float: left;
+    margin: 6px 0px 0 0;
+}
+
+.paf-nav-subitem a {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0 12px;
+    height: 26px;
+    line-height: 26px;
+    background: transparent;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+}
+
+.paf-nav-subitem a:hover {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    background: transparent;
+    color: #ffa358;
+}
+
+.paf-nav-item-current .paf-nav-submain {
+    display: block
+}
+
+.paf-nav-subitem-current a, .paf-nav-subitem-current a:hover {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 14px;
+    background: transparent;
+    color: #FF9138;
+}
+
+.paf-nav-subcontainer {
+    height: 36px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: -webkit-linear-gradient(top, #FEFEFE, #F9F9F9);
+    background: -moz-linear-gradient(top, #FEFEFE, #F9F9F9);
+    background: -ms-linear-gradient(#FEFEFE, #F9F9F9);
+    background: -o-linear-gradient(#FEFEFE, #F9F9F9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FEFEFE, endColorstr=#F9F9F9)
+}
+
+.paf-nav-nosub .paf-nav-subcontainer, .paf-nav-nosub .paf-nav-subitem {
+    display: none
+}

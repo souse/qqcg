@@ -1,0 +1,31 @@
+{
+    "family": "consumer",
+    "name": "jqbao-index",
+    "version": "1.0.1",
+    "description": "借钱宝首页模块",
+    "author": "xujia624@pingan.com.cn",
+    "maintainers": [
+        "xujia624@pingan.com.cn"
+    ],
+    "licenses": "MIT",
+    "spm": {
+        "output": [
+            "jqbao-index.js",
+            "jqbao-index.css",
+            "index.png"
+        ],
+        "alias": {
+            "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css": "pafweblib/box/1.0.0/box.css",
+            "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css": "pafweblib/btn/2.0.0/btn.css",
+            "/static/pinganfuweb-modules/pafweblib/table/1.0.0/table.css": "pafweblib/table/1.0.0/table.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css": "pafweblib/form/1.0.0/form.css",
+            "/static/pinganfuweb-modules/pafweblib/form/1.0.0/select.css": "pafweblib/form/1.0.0/select.css",
+            "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-form-all.css": "pafweblib/icons/1.0.0/icons-form-all.css",
+            "/static/pinganfuweb-modules/alice/tab/1.0.1/tab.css": "alice/tab/1.0.1/tab.css",
+            "/static/pinganfuweb-modules/consumer/icons/1.0.0/icons-settingstate.css": "consumer/icons/1.0.0/icons-settingstate.css",
+            "$": "jquery/jquery/1.10.2/jquery",
+            "moment": "gallery/moment/2.0.0/moment",
+            "FormValidator": "pafweblib/FormValidator/0.2.1/FormValidator"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "family": "consumer",
+  "name": "withdrawtocard",
+  "version": "1.0.0",
+  "description": "hqbao withdraw account to card",
+  "homepage": "https://github.com/susie/withdrawtocard",
+  "author": "susie",
+  "maintainers": [
+    "susie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/susie/withdrawtocard.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "withdrawToCard.js",
+      "withdrawToCard.css"
+    ],
+    "alias": {   
+     "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-bank-all.css":"pafweblib/icons/1.0.0/icons-bank-all.css",
+    "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-state-all.css":"pafweblib/icons/1.0.0/icons-state-all.css",
+    "/static/pinganfuweb-modules/pafweblib/icons/1.0.0/icons-form-all.css":"pafweblib/icons/1.0.0/icons-form-all.css",
+    "/static/pinganfuweb-modules/pafweblib/notify/1.0.0/notify.css":"pafweblib/notify/1.0.0/notify.css",
+    "/static/pinganfuweb-modules/pafweblib/pwdGrd/1.0.1/c-pwdGrd.css":"pafweblib/pwdGrd/1.0.1/c-pwdGrd.css",
+    "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css":"pafweblib/form/1.0.0/form.css",
+    "/static/pinganfuweb-modules/pafweblib/form/1.0.0/select.css":"pafweblib/form/1.0.0/select.css",
+    "/static/pinganfuweb-modules/consumer/tabpanel/1.0.0/tabpanel.css":"consumer/tabpanel/1.0.0/tabpanel.css",
+    "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

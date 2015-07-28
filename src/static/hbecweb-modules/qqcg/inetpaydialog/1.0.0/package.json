@@ -1,0 +1,29 @@
+{
+  "family": "consumer",
+  "name": "inetpaydialog",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/zhangping/inetpaydialog",
+  "author": "zhangping",
+  "maintainers": [
+    "zhangping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangping/inetpaydialog.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "inetpaydialog.js",
+      "inetpaydialog.css"
+    ],
+    "alias": {"dialog":"consumer/dialog/1.0.0/dialog"},
+    "devAlias": {},
+    "engines": {}
+  }
+}

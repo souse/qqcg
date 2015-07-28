@@ -1,0 +1,27 @@
+{
+  "family": "consumer",
+  "name": "prepaidcard-bindcard",
+  "version": "0.1.0",
+  "description": "This is a prepaidcard bindcard modules.",
+  "author": "susie",
+  "maintainers": [
+    "susie"
+  ],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "prepaidcard-bindcard.js",
+      "prepaidcard-bindcard.css"
+    ],
+    "alias": {
+    "/static/pinganfuweb-modules/pafweblib/box/1.0.0/box.css":"pafweblib/box/1.0.0/box.css",
+    "/static/pinganfuweb-modules/consumer/dialog/1.0.0/dialog.css":"consumer/dialog/1.0.0/dialog.css",
+    "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css":"pafweblib/btn/2.0.0/btn.css",
+    "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css":"pafweblib/form/1.0.0/form.css",
+    "/static/pinganfuweb-modules/consumer/prepaidcard-index/0.1.0/prepaidDialog.css":"consumer/prepaidcard-index/0.1.0/prepaidDialog.css",
+    "/static/pinganfuweb-modules/consumer/sendotp/1.0.0/sendotp.css":"consumer/sendotp/1.0.0/sendotp.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}
