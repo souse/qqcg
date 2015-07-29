@@ -1,3 +1,3 @@
 # qqcg
 demo
-### maybe spm is a better package tool for medium project
+###### maybe spm is a better package manager for medium project
