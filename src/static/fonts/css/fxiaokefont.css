@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "fxiaokefont";
+  src: url('../fxiaokefont.eot');
+  src: url('../fxiaokefont.eot?#iefix') format('eot'),
+    url('../fxiaokefont.woff') format('woff'),
+    url('../fxiaokefont.ttf') format('truetype'),
+    url('../fxiaokefont.svg#fxiaokefont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fxiaoke:before {
+  display: inline-block;
+  font-family: "fxiaokefont";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fxiaoke-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fxiaoke-2x { font-size: 2em; }
+.fxiaoke-3x { font-size: 3em; }
+.fxiaoke-4x { font-size: 4em; }
+.fxiaoke-5x { font-size: 5em; }
+.fxiaoke-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.fxiaoke-arrow-down:before { content: "\EA01" }
+.fxiaoke-arrow-left:before { content: "\EA02" }
+.fxiaoke-arrow-right:before { content: "\EA03" }
+.fxiaoke-arrow-up:before { content: "\EA04" }

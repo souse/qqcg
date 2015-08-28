@@ -19,7 +19,7 @@ var hbecJS = [
     ];
 
 gulp.task('look', function () {
-    gulp.watch(hbecJS, ['js-min']);
+    // gulp.watch(hbecJS, ['js-min']);
     gulp.watch([lessFiles], ['less-min']);
 });
 gulp.task('less-min',function(){
@@ -55,6 +55,19 @@ gulp.task('localhost', function() {
 
 gulp.task("default",[ 'localhost','look']);
 
+
+
+
+
+/**************************************************************************************/
+//seajs模块 transport
+var transport = require("gulp-seajs-transport");
+gulp.task("seajs",function(){
+    gulp.src( staticDir + 'qqcg/build_o/**/*.js' )
+        .pipe( transport() )
+        .pipe( gulp.dest( 'src/dist/' ) )
+});
+
 /*图片压缩*/
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
@@ -66,4 +79,30 @@ gulp.task('min-image', function () {
         }))
         // .pipe(pngquant({quality: '65-80', speed: 4})())
         .pipe(gulp.dest('src/images'));
+});
+
+//iconfont npm
+var iconfont = require('gulp-iconfont');
+var runTimestamp = Math.round(Date.now()/1000);
+var consolidate = require('gulp-consolidate');
+
+gulp.task('iconfont', function(){
+  return gulp.src(['src/static/icons/*.svg'])
+    .pipe(iconfont({
+      fontName: 'fxiaokefont' // required 
+      //appendUnicode: true, // recommended option 
+      //formats: ['ttf', 'eot', 'woff'], // default, 'woff2' and 'svg' are available 
+      //timestamp: runTimestamp // recommended to get consistent builds when watching files 
+    }))
+      .on('glyphs', function(glyphs, options) {
+            gulp.src('src/static/icons/fxiaokefont.css')
+            .pipe(consolidate('lodash', {
+              glyphs: glyphs,
+              fontName: 'fxiaokefont',
+              fontPath: '../',
+              className: 'fxiaoke'
+            }))
+            .pipe(gulp.dest('src/static/fonts/css/'));
+      })
+    .pipe(gulp.dest('src/static/fonts/'));
 });
